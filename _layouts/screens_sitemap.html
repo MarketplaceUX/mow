@@ -1,0 +1,23 @@
+---
+layout: base
+---
+
+<div class="row sidebar-row">
+
+{% include sidebar_screens.html %}
+
+	<div class="col-xs-12 col-md-10 content-screens">
+
+		<h1>{{ page.title }}</h1>
+
+		<div class="row proto-row">
+			<div class="col-xs-12 col-md-8"><img class="img-responsive" src={{ site.baseurl }}/pages_images/{{ page.img }}>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-12 col-md-10 screen-txt right-col-padding">{{ content }}</div>
+		</div>
+
+	</div>
+</div><!-- / main content area -->

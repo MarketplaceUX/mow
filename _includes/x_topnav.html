@@ -1,0 +1,22 @@
+<li {% if page.group == 'Home' %}class="active"{% endif %}><a href="{{ site.baseurl }}/" title="Go to home page of this project">Home</a></li>
+
+<li class="dropdown">
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Table of Contents <b class="caret"></b></a>
+	
+	<ul class="dropdown-menu">
+		<li><a href="index.html">Title Page</a></li>
+		
+		<li {% if page.group == 'Background' %}class="active"{% endif %}><a href="{{ site.baseurl }}/background" title="Background">Background</a></li>
+
+		<li {% if page.group == 'Strategy' %}class="active"{% endif %}><a href="{{ site.baseurl }}/strategy" title="Experience Strategy">Strategy</a></li>
+
+		<li {% if page.group == 'Concepts' %}class="active"{% endif %}><a href="{{ site.baseurl }}/concepts" title="Concepts">Concepts</a></li>
+
+		<li {% if page.group == 'Design' %}class="active"{% endif %}><a href="{{ site.baseurl }}/design" title="Design">Design</a></li>
+	</ul>
+</li>
+
+<li><a href="{{site.openissuesurl }}" title="View the Open Issues for this project">Open Issues on <i style="font-size:100%;" class="fa fa-github"></i> Github</a><li>
+
+<li><a title="View the Master Branch for this project" href="{{site.masterbranchurl }}">Project Master Branch</a><li>
+

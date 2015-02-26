@@ -1,0 +1,7 @@
+{% for node in site.section1_list %}
+	{% if page.url == node[1] %}
+		<li><a href="{{ node[1] }}" style="color:green;">{{ node[0] }}</a></li>
+	{% else %}
+		<li><a href="{{ node[1] }}">{{ node[0] }}</a></li>
+	{% endif %}
+{% endfor %}

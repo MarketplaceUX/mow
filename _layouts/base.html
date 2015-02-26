@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+	{% include header.html %}
+	<body data-spy="scroll">
+		<div id="wrapper">
+			<!--
+			The top nav needs to be edited in /_includes/specNav.html
+			-->
+			{% include topnav.html %}	
+			<div id="content">
+				{{ content }}
+			</div>
+		</div>
+		<!--
+			If you need to update the footer (you probably shouldn't need to) it's in /_includes/specFooter.html
+		-->
+		{% include footer.html %}	
+		<!-- scripts -->
+		{% include scripts.html %}
+	</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>{{ page.title }}</title>
+<meta name="viewport" content="width=device-width">
+
+<!-- syntax highlighting CSS -->
+<link rel="stylesheet" href="/css/syntax.css">
+
+<!-- other CSS -->
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+<link rel="stylesheet" href="{{ site.baseurl }}/css/templateStyles.css">
+
+</head>
+
+<header>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a title="Visit the Marketplace UX wiki" class="navbar-brand mpuxlogo" href="https://wiki.mozilla.org/Marketplace/Marketplace_UX"></a>
+        </div>
+        <div class="navbar-collapse collapse" id="marketplaceUXSpecCollapse">
+            <ul class="nav navbar-nav">
+                <!-- start TOPNAV include. If this is a new top-level page, update the topnav.html in includes folder -->
+                {% include topnav.html %}
+                <!-- end TOPNAV include -->
+            </ul>
+        </div><!-- /.nav-collapse -->
+    </div>
+</div>
+</header>

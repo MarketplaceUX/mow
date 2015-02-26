@@ -1,0 +1,181 @@
+html,body{
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+body{
+	/* compensate for navbar height + its border */
+	padding-top:101px;
+	background-color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+h2{
+	font-size: 2em;
+}
+
+
+/*----- STRUCTURE -----*/
+#wrapper {
+	min-height: 100%;
+	position: relative;
+	width: 100%;
+	/* padding/margin here = hor scrollbar */
+	/*padding: 0 !important;
+	margin: 0 !important;*/
+}
+
+
+/*----- HEADER -----*/
+.navbar-default .navcontainer {
+	/*padding-left: 15px !important;*/
+	/*margin-left: 0 !important;*/
+	width: 100%;
+	height: 50px;
+	background-color: #7a3675;
+}
+
+.container>.navbar-header, 
+.container-fluid>.navbar-header, 
+.container>.navbar-collapse, 
+.container-fluid>.navbar-collapse {
+	/*margin-right: 0px;
+	margin-left: -15px;*/
+}
+
+.brand-logo {
+	float: left;
+	width: 50px;
+	max-width: 50px;
+	height: 50px;
+	background-image: url('/img/base_favicon.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center center;
+}
+a.brand-txt {
+	color: #fff !important;
+	font-size: 20px;
+	line-height: 50px;
+}
+a.brand-txt:hover {
+	background-color: #f1f1f1 !important;
+	color: #7a3675 !important;
+}
+
+.navbar-default .navbar-right>li>a,
+.navbar-default .navbar-right>li>a:visited {
+	color: #fff;
+}
+.navbar-default .navbar-right>li>a:hover {
+	color: #7a3675;
+	background-color: #f1f1f1;
+}
+
+.navbar-default {
+	background-color: #f1f1f1;
+	/*overflow-y: visible !important;*/
+}
+
+.my-pills {
+	clear:both;
+	float: left;
+	padding-left: 50px;
+}
+
+.nav-pills>li>a {
+	border-radius: 0;
+	padding: 0 30px 0 30px;
+	font-size: 120%;
+	line-height: 50px;
+	color: #0092ff;
+}
+
+.nav-pills>li.active>a {
+	background-color: #0092ff;
+}
+
+.nav-pills>li>a:hover,
+.nav-pills>li>a:focus,
+.nav-pills>li.active>a:hover,
+.nav-pills>li.active>a:focus {
+	color: #fff;
+	background-color: #c93333;
+}
+
+
+
+/*----- CONTENT -----*/
+#content {
+	padding-bottom: 50px;
+	background-color: white;
+}
+
+.jumbotron {
+	margin-bottom: 0;
+	padding: 0;
+	background-color: white;
+}
+
+
+/*----- FOOTER -----*/
+#footer {
+  height: 60px; /* fixed height */
+  background-color: #f5f5f5;
+  padding-top:15px;
+  border-top: 1px solid #d7d7d7;
+}
+footer p{
+	border-left: 1px dotted #ccc;
+	padding-left: 5px;
+	font-size: .9em;
+}
+
+
+/*----- MEDIA QUERIES -----*/
+
+/* Small devices */
+@media(max-width: 767px) { 
+	body{
+		/* compensate for shorter navbar height + its border */
+		padding-top:51px;
+	}
+
+	/*---- NAV -----*/
+	.container>.navbar-header, 
+	.container-fluid>.navbar-header, 
+	.container>.navbar-collapse, 
+	.container-fluid>.navbar-collapse {
+		background-color: #7a3675;
+	}
+	.my-pills {
+		padding-left: 0px;
+		margin-top: -20px !important;
+		/* add bottom padding so bg extends beyond last nav-pill */
+		margin-bottom: 20px;
+		width: 100% !important;
+	}
+	.nav-pills>li {
+		width: 100% !important;
+	}
+	.nav-pills>li>a,
+	.navbar-default .navbar-right>li>a, 
+	.navbar-default .navbar-right>li>a:visited {
+		color: #0092ff;
+	}
+	.container>.navbar-collapse, 
+	.container-fluid>.navbar-collapse {
+      background-color: #f1f1f1;
+   }
+   .navbar-collapse.in {
+      overflow-y: visible;
+   }
+   .navbar-nav {
+   	margin: 3.5px -15px !important;
+   }
+}
+
+
+
+

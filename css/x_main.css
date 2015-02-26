@@ -1,0 +1,366 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+@font-face{
+    font-family: 'FiraSans';
+    src: url('/fonts/fira/eot/FiraSans-Regular.eot');
+    src: local('FiraSans'),
+         url('/fonts/fira/eot/FiraSans-Regular.eot') format('embedded-opentype'),
+         url('/fonts/fira/woff/FiraSans-Regular.woff') format('woff'),
+         url('/fonts/fira/ttf/FiraSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'FiraSansMed';
+    src: url('/fonts/fira/eot/FiraSans-Medium.eot');
+    src: local('FiraSans'),
+         url('/fonts/fira/eot/FiraSans-Medium.eot') format('embedded-opentype'),
+         url('/fonts/fira/woff/FiraSans-Medium.woff') format('woff'),
+         url('/fonts/fira/ttf/FiraSans-Medium.ttf') format('truetype');
+         font-weight: 500;
+    font-style: normal;
+}
+
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%; /* Set base font to 10px and define all your units in rem. 1rem = 10px */
+}
+
+body {
+  background-color: #fff;
+  width: 100%;
+  font-family: 'FiraSans', Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  line-height: 140%;
+  color: #666;
+  padding-top: 70px; /* compensate for bootstrap's fixed navbar height */
+}
+
+/* Reset some markdown */
+h1 {
+  font-family: 'FiraSansMed', Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid #444;
+}
+h2 {
+  font-family: 'FiraSansMed', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 2.7rem;
+}
+h3, h4, h5, h6 {
+  margin-top: 5rem;
+  font-family: 'FiraSansMed', Helvetica, Arial, sans-serif;
+}
+p,
+ul,
+ol { 
+  font-size: 1.7rem; 
+  margin: 0 0 2.2rem 0; 
+  line-height: 140%; 
+}
+ul {
+  list-style-position: outside;
+  margin-left: 1.75rem;
+}
+ol {
+  margin-left: 2.5rem;
+}
+li {
+  margin-bottom: 1rem;
+}
+blockquote {
+  border-left: 5px solid #2980b9;
+}
+blockquote p {
+  font-size: 90%;
+  padding-left: 0;
+}
+
+/* Use some em styles to quickly color markdown content */
+/* 
+Resetting normal em to use for purple notes, 
+so if you need to use em italic, do *<i>...</i>*  
+*/
+em {
+  color: #8e44ad;
+  font-style: normal;
+}
+/* 
+Create new em style for red questions
+use it this way *<em>...</em>*  
+*/
+em em {
+  color: #e74c3c;
+  font-style: normal;
+}
+
+a, a:active {
+  color: #2980b9;
+}
+a:visited { 
+  color: #3498db;
+  text-decoration: none;
+}
+a:hover { 
+  color: #d35400; 
+  text-decoration: none;
+}
+
+a.btn {
+  color: #fff;
+}
+a.btn:hover {
+  color: #fff;
+}
+
+
+/*****************************************************************************/
+/*
+/* Bootstrap 3 Mods
+/*
+/*****************************************************************************/
+
+/* Navbar */
+.navbar .container {
+  width: 100%;
+  border-bottom: 2px solid #ebebeb;
+}
+.navbar-default {
+  background-color: #f1f1f1;
+  border: none !important;
+  box-shadow: none;
+}
+.navbar-nav>li {
+  font-size: 70%;
+  letter-spacing: 0.075rem;
+  /*text-transform: uppercase;*/
+  margin-bottom: 0;
+}
+.nav>li>a {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.navbar-default .navbar-nav > li > a,
+.navbar-right > li > a {
+  color: #444;
+}
+.navbar-default .navbar-nav > li.active > a {
+  background-color: #0092ff; /*#95a5a6*/
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li.active > a:hover {
+  background-color: #ecf0f1; /*ecf0f1;*/
+  color: #006dbf;
+}
+
+.navbar-right > li > a {
+  background-color: #444; /*e74c3c*/
+  color: #fff !important;
+  text-transform: none !important;
+  border-left: 1px solid #fff;
+}
+.navbar-right > li > a:hover {
+  background-color: #ecf0f1 !important;
+  color: #006dbf !important;
+}
+
+
+.navbar-default .navbar-brand {
+  color: #fff;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: #444; /*#95a5a6;*/
+  border-right: 1px solid #fff;
+  font-size: 130%;
+}
+.navbar-default .navbar-brand:hover {
+  background-color: #ecf0f1;
+  color: #006dbf;
+}
+
+/* Buttons */
+.btn-default,
+.btn-primary,
+.btn-success,
+.btn-info,
+.btn-warning,
+.btn-danger {
+  text-shadow: none;
+  -webkit-box-shadow: 0;
+          box-shadow: 0;
+}
+.btn-default:active,
+.btn-primary:active,
+.btn-success:active,
+.btn-info:active,
+.btn-warning:active,
+.btn-danger:active,
+.btn-default.active,
+.btn-primary.active,
+.btn-success.active,
+.btn-info.active,
+.btn-warning.active,
+.btn-danger.active {
+  -webkit-box-shadow: 0;
+          box-shadow: 0;
+}
+.btn:active,
+.btn.active {
+  background-image: none;
+}
+.btn-default,
+.btn-default:active,
+.btn-default.active {
+  text-shadow: none;
+  background-image: none;
+  background-color: #bdc3c7;
+  color: #444;
+  border: none;
+}
+.btn-default:hover,
+.btn-default:focus {
+  background-color: #95a5a6;
+}
+.btn-primary {
+  background-image: none;
+  background-color: #16a085;
+  color: #fff;
+  border: none;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #1abc9c;
+}
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #27ae60;
+  border: none;
+}
+
+/* Sidebar nav-pills */
+.nav-pills {
+  margin-left: 0;
+}
+.nav>li>a {
+  color: #666;
+  text-shadow: none;
+  border-radius: 0;
+  border-bottom: none;
+}
+.nav>li>a:hover, 
+.nav>li>a:focus {
+  color: red;
+  background-color: transparent;
+}
+.nav-pills>li.active>a {
+  background-color: #bdc3c7; /*#7f8c8d;*/
+  color: #fff;
+}
+ 
+.nav-pills>li.active>a:hover, 
+.nav-pills>li.active>a:focus {
+  background-color: #e74c3c;
+}
+.nav-pills .sidebar-header {
+    color: #666;
+    marging-left: 0;
+}
+
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+.container {
+  width:100%;
+}
+.content-screens { }
+.sidebar-module {
+  padding: 0;
+}
+.sidebar-inner {
+  background-color: #ecf0f1;
+}
+.screen-txt h3:first-child{
+  margin-top: 3rem;
+}
+
+.marketplaceLogo{
+  width: 150px;
+  max-width: 150px;
+  background-image: url('../img/marketplace_logo.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center; 
+}
+
+/*****************************************************************************/
+/*
+/* Footer
+/*
+/*****************************************************************************/
+.footer {
+  font-size: 80%;
+  border-top: 1px solid #444;
+  margin: 2rem 0 3rem 0;
+  padding-top: 3rem;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+
+/*****************************************************************************/
+/*
+/* Media Queries
+/*
+/*****************************************************************************/
+/* Mobile devices */
+@media(max-width: 767px) { 
+  .sidebar-inner { /* un=affix sidebar for mobile */
+    position: relative;
+    width: 100%;
+  }
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media(min-width: 768px) { 
+  .main-container {
+    min-height: 600px;
+  }
+  .sidebar-row{
+    padding: 0 5% 0 5%;
+  }
+  .base-row {
+    padding: 0 20% 0 20%;
+  }
+  .sidebar-inner {
+    width:20%;
+    margin-top: 2.5rem;
+  }
+  .content-screens { 
+    float:right;
+    width:75%;
+    padding-left: 4rem;
+  }
+  .proto-row {
+    margin-top: 3rem;
+  }
+  .right-col-padding {
+    padding-right: 8rem;
+  }
+}
+
+

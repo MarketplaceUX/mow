@@ -1,0 +1,28 @@
+# Site settings
+name: Mobile-optimized Websites for the Firefox Marketplace
+title: Mobile-optimized Websites for the Firefox Marketplace
+author: Mozilla Firefox Marketplace UX team
+email: marketplace-ux@mozilla.com
+description: "User experience design for integrating mobile-optimized websites into Marketplace"
+baseurl: "/mow" #this is the github project name WITHOUT the trailing /
+openissuesurl: "https://github.com/ezoehunt/mow/issues"
+masterbranchurl: "https://github.com/ezoehunt/mow"
+url: "https://ezoehunt.github.io"  #this the url of the GHPages account your project is hosted at
+
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+
+
+# List of Pages for Section1 in display order
+section1_list:       
+  Overview: '/background/index.html'
+  Goals + Metrics: '/background/goals.html'
+
+
+# List of Pages for Section2 in display order
+section2_list:       
+  Overview: '/strategy/index.html'
+  Design Strategies: '/strategy/designstrats.html'
+

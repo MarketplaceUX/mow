@@ -1,0 +1,31 @@
+---
+layout: base
+imgintro: Click the image to see the prototype for this screen.</p><p>When the prototype opens, click the X to close the left sidebar panel.</p><p><em>Purple text</em> below tells you where you can click in the prototype (prototype is not fully interactive).</p><p><b>Bold text</b> references an interaction that is part of this prototype screen.</p>
+---
+
+<div class="row sidebar-row">
+
+{--% include sidebar_screens.html --%}
+
+	<div class="col-xs-12 col-md-10 content-screens">
+
+		<h1>{{ page.title }}</h1>
+
+			<div class="row proto-row">
+				<div class="col-xs-12 col-md-4"><a href="#" onClick="window.open('{{ page.protourl}}','{{ page.protowindow }}','{{ page.protosize }},toolbar=no,location=no,directories=no,statu s=no,menubar=no,scrollbars=yes,copyhistory=no,resizable=yes')"><img src={{ site.baseurl }}/pages_images/{{ page.img }} class="img-responsive"></a>
+				</div>
+						
+				<div class="col-xs-12 col-md-8 right-col-padding">
+					<p>{{ page.imgintro }}</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-12 col-md-10 screen-txt right-col-padding">{{ content }}</div>
+			</div>
+		</div>
+	</div>
+</div><!-- / main content area -->
+
+
+

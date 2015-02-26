@@ -1,0 +1,58 @@
+<header>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	
+	<div class="container navcontainer">
+	
+		<div class="navbar-header">
+	
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+	
+				<a class="brand-logo" target="_blank" href="{{site.masterbranchurl }}" title="See this project on Github" >&nbsp;</a>
+	
+		</div>
+		
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+			<!-- ROW 1 - YOU NEED TO ADJUST LINKS IN THIS ROW -->
+			<ul class="nav navbar-nav">
+				
+				<li class="hidden-xs"><a class="brand-txt" target="_blank" title="See this project on Github" href="{{site.masterbranchurl }}">Bringing Websites to Marketplace</a><li>
+			
+			</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+
+          <li><a target="_blank" title="See open issues for this project" href="{{site.openissuesurl }}">See Open Issues on <i style="font-size:100%;" class="fa fa-github"></i> Github</a><li>
+
+          <li><a target="_blank" class="" href="https://wiki.mozilla.org/Marketplace/Marketplace_UX" title="See other Marketplace UX projects">Visit Marketplace UX Wiki</a></li>
+      </ul>
+
+      <!-- ROW 2 - ADJUST NAV ITEMS IN THIS ROW -->
+      <br/>
+      <ul class="nav nav-pills my-pills">
+
+			  <li role="presentation" {% if page.group == 'Home' %}class="active"{% endif %}><a href="/">Home</a></li>
+
+			  <li role="presentation" {% if page.group == 'Project' %}class="active"{% endif %}><a href="{{ site.baseurl }}/project">Project Overview</a></li>
+
+			  <li role="presentation" {% if page.group == 'Background' %}class="active"{% endif %}><a href="{{ site.baseurl }}/background">Background</a></li>
+			  
+			  <li role="presentation" {% if page.group == 'Strategy' %}class="active"{% endif %}><a href="{{ site.baseurl }}/strategy">Strategy</a></li>
+
+			  <li role="presentation" {% if page.group == 'Concepts' %}class="active"{% endif %}><a href="{{ site.baseurl }}/concepts">Concepts</a></li>
+
+			  <li role="presentation" {% if page.group == 'Design' %}class="active"{% endif %}><a href="{{ site.baseurl }}/design">Design</a></li>
+			
+			</ul>
+
+    </div>
+
+	</div>
+
+</nav>
+</header>
