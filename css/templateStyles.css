@@ -6,7 +6,7 @@ html,body{
 
 body{
 	/* compensate for navbar height + its border */
-	padding-top:101px;
+	/*padding-top: 51px;*/
 	background-color: #fff;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
@@ -20,7 +20,11 @@ P {
 }
 
 h2{
-	font-size: 2em;
+	font-size: 2rem;
+}
+
+a:hover {
+	text-decoration: none !important;
 }
 
 
@@ -29,21 +33,24 @@ h2{
 	min-height: 100%;
 	position: relative;
 	width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 
 /*----- HEADER -----*/
+.navbar-default,
+.nav {
+	border: none !important;
+}
+
 .navbar-default .navcontainer {
 	width: 100%;
-	height: 50px;
 	background-color: #7a3675;
 }
 
-.container>.navbar-header, 
-.container-fluid>.navbar-header, 
-.container>.navbar-collapse, 
-.container-fluid>.navbar-collapse {
-
+.navbar-header {
+	height: 50px;
 }
 
 .brand-logo {
@@ -56,63 +63,68 @@ h2{
 	background-size: 100%;
 	background-position: center center;
 }
-a.brand-txt {
-	color: #fff !important;
-	font-size: 20px;
+.brand-logo-txt {
+	color: #fff;
 	line-height: 50px;
-}
-a.brand-txt:hover {
-	background-color: #f1f1f1 !important;
-	color: #7a3675 !important;
+	font-size: 14px;
 }
 
-.navbar-default .navbar-right>li>a,
-.navbar-default .navbar-right>li>a:visited {
+/*.container>.navbar-header, 
+.container-fluid>.navbar-header,*/
+.container>.navbar-collapse, 
+.container-fluid>.navbar-collapse {
+	background-color: #444; 
+}
+
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:visited {
+	padding: 0 10px 0 20px;
+	font-size: 110%;
+	line-height: 50px;
 	color: #fff;
 }
-.navbar-default .navbar-right>li>a:hover {
-	color: #7a3675;
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li.active>a:hover,
+.navbar-default .navbar-nav>li.active>a:focus {
+	color: #444 !important;
 	background-color: #f1f1f1;
 }
 
-.navbar-default {
-	background-color: #f1f1f1;
-}
-
-.my-pills {
-	clear:both;
-	float: left;
-	padding-left: 50px;
-}
-
-.nav-pills>li>a {
-	border-radius: 0;
-	padding: 0 20px 0 20px;
-	font-size: 120%;
-	line-height: 50px;
-	color: #0092ff;
-}
-
-.nav-pills>li.active>a {
+.navbar-default .navbar-nav>li.active>a {
 	background-color: #0092ff;
+	color: #fff !important;
 }
 
-.nav-pills>li>a:hover,
-.nav-pills>li>a:focus,
-.nav-pills>li.active>a:hover,
-.nav-pills>li.active>a:focus {
-	color: #fff;
-	background-color: #c93333;
+.navbar-collapse {
+	/* make sure menu is tall enough */
+	max-height: inherit !important;
+}
+
+.navbar-collapse.in {
+	overflow-y: visible;
+	height: auto !important;
+}
+
+.navbar-nav {
+	margin: 3.5px -15px !important;
+}
+
+.divider {
+	height: 1px;
+	margin: 9px 9px;
+	background-color: #ebebeb;
 }
 
 
 /*----- SUBNAV -----*/
 #sidebar-subnav {
-	padding: 62px 10px 10px 10px;
+	padding: 0px 10px 10px 10px; /* top 62*/
 }
 
 .nav-stacked {
-	border: 1px solid black;
+	border: 1px solid black !important;
 }
 .nav-stacked>li>a {
 	color: #444;
@@ -127,24 +139,26 @@ a.brand-txt:hover {
 /*----- CONTENT -----*/
 #content {
 	background-color: white;
-	padding: 20px 20px 50px 20px;
+	padding: 0px 20px 0px 20px; /* bot 50*/
 }
 
 #content-main {
-	/* big right margin for better readability */
-	padding: 0px 100px 40px 40px;
+	
+	padding: 0px 12px 40px 12px;
 }
 
 #content-main P {
 	font-size: 140%;
 }
 
-.jumbotron {
-	margin-bottom: 0;
-	padding: 0;
-	background-color: white;
+#content-main h1.subnav {
+	padding-top: 12px;
+	border-top: 1px solid #888;
 }
 
+#content h6 {
+	color: #2d457e;
+}
 
 /*----- FOOTER -----*/
 #footer {
@@ -180,66 +194,106 @@ footer p{
 
 
 
+	#mynav.affix {
+    position: fixed;
+    top: 300;
+    width: 100%;
+    z-index:10;
+	}
+
+
+
+
 
 /*----- MEDIA QUERIES -----*/
 
-/* Small devices */
-@media(max-width: 767px) { 
-	body{
-		/* compensate for shorter navbar height + its border */
-		padding-top:51px;
-	}
-
-	/*---- NAV -----*/
-	.container>.navbar-header, 
-	.container-fluid>.navbar-header, 
-	.container>.navbar-collapse, 
-	.container-fluid>.navbar-collapse {
-		background-color: #7a3675;
-	}
-	.my-pills {
-		padding-left: 0px;
-		margin-top: -20px !important;
-		/* add bottom padding so bg extends beyond last nav-pill */
-		margin-bottom: 20px;
-		width: 100% !important;
-	}
-	.nav-pills>li {
-		width: 100% !important;
-	}
-	.nav-pills>li>a,
-	.navbar-default .navbar-right>li>a, 
-	.navbar-default .navbar-right>li>a:visited {
-		color: #0092ff;
-	}
-	.container>.navbar-collapse, 
-	.container-fluid>.navbar-collapse {
-      background-color: #f1f1f1;
-   }
-   .navbar-collapse.in {
-      overflow-y: visible;
-   }
-   .navbar-nav {
-   	margin: 3.5px -15px !important;
-   }
-
-   
-
-}
-
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) {
+@media (min-width: 768px) {
+	.pre-header {
+		background-color: #7a3675;
+		height: 50px;
+		margin-top: 0px !important;
+	}
+	.pre-header-ul {
+		margin: 0 !important;
+		padding: 0 0 0 0 !important;
+		list-style: none !important;
+	}
+	.pre-header li {
+		line-height: 50px;
+	}
+	.pre-header li.pull-right {
+		margin-left: 20px;
+	}
+	.pre-header li a {
+		color: #fff !important;
+		float: left !important;
+	}
+	.brand-logo-txt {
+		float: left;
+	}
+	a.pre-header-title,
+	.pre-header li a {
+		padding: 0 15px 0 15px;
+	}
+
+	a.pre-header-title:hover,
+	a.pre-header-title:focus,
+	.pre-header li a:hover,
+	.pre-header li a:focus {
+		color: #7a3675 !important;
+		background-color: #f1f1f1;
+	}
+	.navbar-default .navcontainer {
+		background-color: #f1f1f1;
+		height: 50px;
+	}
+	.container>.navbar-collapse, 
+	.container-fluid>.navbar-collapse {
+		height: 50px !important;
+		background-color: #f1f1f1;
+	}
+	.navbar-nav {
+		margin-top: 0px !important;
+		padding-left: 36px;
+	}
+	.navbar-default .navbar-nav>li>a, 
+	.navbar-default .navbar-nav>li>a:visited {
+		padding: 0 20px 0 20px !important;
+		color: #444;
+	}
+	.navbar-default .navbar-nav>li>a:hover, 
+	.navbar-default .navbar-nav>li>a:focus, 
+	.navbar-default .navbar-nav>li.active>a:hover, 
+	.navbar-default .navbar-nav>li.active>a:focus {
+		background-color: #cbcbcb;
+	}
+	.navbar-default .navbar-nav>li.active>a:hover, 
+	.navbar-default .navbar-nav>li.active>a:focus {
+		color: #444 !important;
+		background-color: #cbcbcb;
+	}
+	#content-main {
+		/* adjusting margins for better readability */
+		padding: 0px 140px 40px 80px;
+	}
+	#content-main h1.subnav {
+		padding-top: 0;
+		margin-top: 0;
+		border: none;
+	}
 
 }
+
+
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md-min) { 
-	/*---- SUBNAV ----*/
-   .sidebar-subnav {
-   		margin-right: 40px;
-   }
+	
 }
+
+
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: @screen-lg-min) { 

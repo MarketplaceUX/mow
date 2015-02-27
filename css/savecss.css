@@ -1,0 +1,310 @@
+html,body{
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+body{
+	/* compensate for navbar height + its border */
+	padding-top: 51px;
+	background-color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #444;
+}
+
+P {
+	line-height: 140%;
+	margin: 0 0 1rem 0;
+	padding: 0;
+}
+
+h2{
+	font-size: 2rem;
+}
+
+
+/*----- STRUCTURE -----*/
+#wrapper {
+	min-height: 100%;
+	position: relative;
+	width: 100%;
+	border: 1px solid red;
+}
+
+
+/*----- HEADER -----*/
+.navbar-default .navcontainer {
+	width: 100%;
+	height: 50px;
+	background-color: #7a3675;
+}
+
+.container>.navbar-header, 
+.container-fluid>.navbar-header,
+.container>.navbar-collapse, 
+.container-fluid>.navbar-collapse {
+	background-color: #444; 
+}
+
+.brand-logo {
+	float: left;
+	width: 50px;
+	max-width: 50px;
+	height: 50px;
+	background-image: url('/img/base_favicon.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center center;
+}
+
+.my-pills {
+	padding-left: 0px;
+	margin-top: -20px !important;
+}
+	
+.nav-pills>li {
+	width: 100% !important;
+}
+
+.nav-pills>li>a,
+.navbar-default .navbar-right>li>a, 
+.navbar-default .navbar-right>li>a:visited {
+	border-radius: 0;
+	padding: 0 10px 0 10px;
+	font-size: 110%;
+	line-height: 40px;
+	color: #fff;
+}
+
+.nav-pills>li.active>a {
+	background-color: #0092ff;
+}
+
+.nav-pills>li>a:hover,
+.nav-pills>li>a:focus,
+.nav-pills>li.active>a:hover,
+.nav-pills>li.active>a:focus {
+	color: #444;
+	background-color: #f1f1f1;
+}
+
+.navbar-default .navbar-right>li>a,
+.navbar-default .navbar-right>li>a:visited {
+	color: #fff;
+}
+.navbar-default .navbar-right>li>a:hover {
+	color: #444;
+	background-color: #f1f1f1;
+}
+
+.navbar-collapse.in {
+	overflow-y: visible;
+	height: auto !important;
+	background-color: #444;
+}
+
+.navbar-collapse {
+	padding-bottom: 50px;
+	height: auto !important;
+}
+.navbar-nav {
+	/*margin: 3.5px -15px !important;*/
+}
+
+
+
+/*----- SUBNAV -----*/
+#sidebar-subnav {
+	padding: 0px 10px 10px 10px; /* top 62*/
+}
+
+.nav-stacked {
+	border: 1px solid black;
+}
+.nav-stacked>li>a {
+	color: #444;
+}
+.nav-stacked>li>a.active-subnav {
+	background-color: #2d457e;
+	color: #fff;
+}
+
+
+
+/*----- CONTENT -----*/
+#content {
+	background-color: white;
+	padding: 20px 20px 0px 20px; /* bot 50*/
+}
+
+#content-main {
+	/* big right margin for better readability */
+	padding: 0px 12px 40px 12px;
+}
+
+#content-main P {
+	font-size: 140%;
+}
+
+/*----- FOOTER -----*/
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* fixed height */
+  background-color: #f5f5f5;
+  padding-top:15px;
+  border-top: 1px solid #d7d7d7;
+}
+footer p{
+	border-left: 1px dotted #ccc;
+	padding-left: 5px;
+	font-size: .9em;
+}
+
+
+/*----- MISC -----*/
+.btn-primary {
+	background-color: #4d994d;
+	border-color: #4d994d;
+	border-radius: 0;
+}
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.open .dropdown-toggle.btn-primary {
+	background-color: #005900;
+	border-color: #005900;
+}
+
+
+
+
+
+
+.navbar-form input, .form-inline input {
+	width:auto;
+}
+
+.navbar {
+    margin-bottom:0;
+}
+
+.subnav {
+   margin:0;
+  top: 0px;
+  z-index: 1020;
+  background-color: rgb(247,247,247); 
+  border-bottom: 1px solid #E1E1E1;
+  padding: 8px 0px 0px 0px;
+}
+
+.subnav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+}
+
+
+
+
+
+
+/*----- MEDIA QUERIES -----*/
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	body {
+		/* compensate for navbar height + its border */
+	padding-top: 101px;
+	}
+
+	.navbar-default .navcontainer {
+		background-color: #7a3675;
+		/*height: auto !important;*/
+	}
+	.container>.navbar-header, 
+	.container-fluid>.navbar-header, 
+	.container>.navbar-collapse, 
+	.container-fluid>.navbar-collapse {
+		background-color: #7a3675; /*f1f1f1;*/
+	}
+	.navbar-nav {
+		/*margin-top: 0px !important;*/
+	}
+
+	a.brand-txt {
+		color: #fff !important;
+		font-size: 14px;
+		line-height: 50px;
+	}
+	a.brand-txt:hover {
+		background-color: #f1f1f1 !important;
+		color: #7a3675 !important;
+	}
+	.navbar-nav.navbar-right:last-child {
+		margin-right: 0px !important;
+	}
+	.navbar-default .navbar-right>li>a, 
+	.navbar-default .navbar-right>li>a:visited {
+		line-height: 50px;
+	}
+	.navbar-default .navbar-right>li>a:hover {
+		color: #7a3675;
+	}
+	
+	/*.navbar-default .navbar-right>li>a,
+	.navbar-default .navbar-right>li>a:visited {
+		color: #fff;
+	}
+	/*.navbar-default .navbar-right>li>a:hover {
+		color: #7a3675;
+		background-color: #f1f1f1;
+	}*
+
+	.navbar-default {
+		background-color: #f1f1f1;
+	}*/
+
+	.my-pills {
+		display: block !important;
+		clear: both !important;
+		float: left;
+		margin-top: 50px !important;
+		padding-left: 50px;
+		margin-bottom: 20px;
+	}
+
+	.nav-pills>li {
+		width: auto !important;
+	}
+	
+	/*.my-pills {
+		/* + padding so bg extends beyond last nav-pill *
+		padding-bottom: 50px !important;
+	}*/
+
+
+
+}
+
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { 
+	
+}
+
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { 
+
+}
+
+
+
