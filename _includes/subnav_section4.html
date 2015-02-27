@@ -2,11 +2,15 @@
 
 	{% if page.url == node[1] %}
 
-		<a href="{{ node[1] }}" class="list-group-item active active-subnav">{{ node[0] }}</a>
+		<li>
+			<a class="active-subnav" title="{{ node[0] }}" href="{{ node[1] }}">{{ node[0] }}</a>
+		</li>
 	
 	{% else %}
 
-		<a href="{{ node[1] }}" class="list-group-item">{{ node[0] }}</a>
+		<li>
+			<a href="{{ node[1] }}" title="{{ node[0] }}">{{ node[0] }}</a>
+		</li>
 	
 	{% endif %}
 
