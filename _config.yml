@@ -4,25 +4,47 @@ title: Mobile-optimized Websites for the Firefox Marketplace
 author: Mozilla Firefox Marketplace UX team
 email: marketplace-ux@mozilla.com
 description: "User experience design for integrating mobile-optimized websites into Marketplace"
-baseurl: "/mow" #this is the github project name WITHOUT the trailing /
+#below github project name WITHOUT the trailing /
+baseurl: "/mow" 
+#below url to this project's Open Issues on github
 openissuesurl: "https://github.com/ezoehunt/mow/issues"
+#below url to this project's Master Branch on github
 masterbranchurl: "https://github.com/ezoehunt/mow"
-url: "https://ezoehunt.github.io"  #this the url of the GHPages account your project is hosted at
+#below url of GHPages account where project is hosted
+url: "https://ezoehunt.github.io"
 
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 highlighter: pygments
 
+# List of the main sections - not used anywhere - for ref only
+Section1: '/'
+Section2: '/project'
+Section3: '/background'
+Section4: '/strategy'
+Section5: '/concepts'
+Section6: '/design'
 
-# List of Pages for Section1 in display order
-section1_list:       
-  Overview: '/background/index.html'
-  Goals + Metrics: '/background/goals.html'
 
+# NOTES ON THE LISTS BELOW
+# Txt before colons is the txt that will appear in subnav.
+# The lists generate subnavs automatically for you.
+# They use the subnav_sectionX.html files to do that.
 
-# List of Pages for Section2 in display order
+# List of Pages IN DISPLAY ORDER for subnav
 section2_list:       
+  Overview: '/project/index.html'
+  Goals + Metrics: '/project/goals.html'
+
+# List of Pages IN DISPLAY ORDER for subnav
+section3_list:       
+  Information: '/background/index.html'
+  Research: '/background/research.html'
+
+# List of Pages IN DISPLAY ORDER for subnav
+section4_list:       
   Overview: '/strategy/index.html'
   Design Strategies: '/strategy/designstrats.html'
+
 

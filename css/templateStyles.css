@@ -10,7 +10,15 @@ body{
 	background-color: #fff;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
+	color: #444;
 }
+
+P {
+	line-height: 140%;
+	margin: 0 0 1rem 0;
+	padding: 0;
+}
+
 h2{
 	font-size: 2em;
 }
@@ -21,16 +29,11 @@ h2{
 	min-height: 100%;
 	position: relative;
 	width: 100%;
-	/* padding/margin here = hor scrollbar */
-	/*padding: 0 !important;
-	margin: 0 !important;*/
 }
 
 
 /*----- HEADER -----*/
 .navbar-default .navcontainer {
-	/*padding-left: 15px !important;*/
-	/*margin-left: 0 !important;*/
 	width: 100%;
 	height: 50px;
 	background-color: #7a3675;
@@ -40,8 +43,7 @@ h2{
 .container-fluid>.navbar-header, 
 .container>.navbar-collapse, 
 .container-fluid>.navbar-collapse {
-	/*margin-right: 0px;
-	margin-left: -15px;*/
+
 }
 
 .brand-logo {
@@ -75,7 +77,6 @@ a.brand-txt:hover {
 
 .navbar-default {
 	background-color: #f1f1f1;
-	/*overflow-y: visible !important;*/
 }
 
 .my-pills {
@@ -86,7 +87,7 @@ a.brand-txt:hover {
 
 .nav-pills>li>a {
 	border-radius: 0;
-	padding: 0 30px 0 30px;
+	padding: 0 20px 0 20px;
 	font-size: 120%;
 	line-height: 50px;
 	color: #0092ff;
@@ -105,11 +106,40 @@ a.brand-txt:hover {
 }
 
 
+/*----- SUBNAV -----*/
+#sidebar-subnav {
+	padding: 74px 10px 10px 10px;
+}
+.list-group.affix {
+
+}
+
+a.list-group-item {
+	color: #444;
+}
+
+a.list-group-item.active, 
+a.list-group-item.active:hover, 
+a.list-group-item.active:focus {
+	color: #fff;
+	background-color: #006dbf;
+}
+
+
 
 /*----- CONTENT -----*/
 #content {
-	padding-bottom: 50px;
 	background-color: white;
+	padding: 20px 20px 50px 20px;
+}
+
+#content-main {
+	/* big right margin for better readability */
+	padding: 0px 180px 40px 40px;
+}
+
+#content-main P {
+	font-size: 140%;
 }
 
 .jumbotron {
@@ -121,6 +151,9 @@ a.brand-txt:hover {
 
 /*----- FOOTER -----*/
 #footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   height: 60px; /* fixed height */
   background-color: #f5f5f5;
   padding-top:15px;
@@ -131,6 +164,24 @@ footer p{
 	padding-left: 5px;
 	font-size: .9em;
 }
+
+
+/*----- MISC -----*/
+.btn-primary {
+	background-color: #4d994d;
+	border-color: #4d994d;
+	border-radius: 0;
+}
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.open .dropdown-toggle.btn-primary {
+	background-color: #005900;
+	border-color: #005900;
+}
+
+
 
 
 /*----- MEDIA QUERIES -----*/

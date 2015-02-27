@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+{% include specHead.html %}
+
+<body role="document" data-spy="scroll">
+		
+<div class="container" id="wrapper">
+		
+	{% include specNav.html %}	
+
+
+	{{ content }}
+
+
+	<footer>
+		<div class="row" id="footer">
+			{% include specFooter.html %}
+		</div>
+	</footer>
+
+</div>
+
+{% include specScripts.html %}
+
+</body>
+
+</html>
