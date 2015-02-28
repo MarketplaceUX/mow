@@ -6,7 +6,8 @@ html,body{
 
 body{
 	/* compensate for navbar height + its border */
-	/*padding-top: 51px;*/
+	/*padding-top: 101px;*/
+	position: relative;
 	background-color: #fff;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
@@ -39,6 +40,11 @@ a:hover {
 
 
 /*----- HEADER -----*/
+header {
+	width: 100%;
+	z-index: 1030;
+}
+
 .navbar-default,
 .nav {
 	border: none !important;
@@ -69,8 +75,6 @@ a:hover {
 	font-size: 14px;
 }
 
-/*.container>.navbar-header, 
-.container-fluid>.navbar-header,*/
 .container>.navbar-collapse, 
 .container-fluid>.navbar-collapse {
 	background-color: #444; 
@@ -120,7 +124,7 @@ a:hover {
 
 /*----- SUBNAV -----*/
 #sidebar-subnav {
-	padding: 0px 10px 10px 10px; /* top 62*/
+	padding: 0px 10px 10px 10px;
 }
 
 .nav-stacked {
@@ -139,11 +143,10 @@ a:hover {
 /*----- CONTENT -----*/
 #content {
 	background-color: white;
-	padding: 0px 20px 0px 20px; /* bot 50*/
+	padding: 60px 20px 0px 20px;
 }
 
 #content-main {
-	
 	padding: 0px 12px 40px 12px;
 }
 
@@ -194,14 +197,6 @@ footer p{
 
 
 
-	#mynav.affix {
-    position: fixed;
-    top: 300;
-    width: 100%;
-    z-index:10;
-	}
-
-
 
 
 
@@ -210,6 +205,9 @@ footer p{
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+	#content {
+		padding-top: 130px;
+	}
 	.pre-header {
 		background-color: #7a3675;
 		height: 50px;
@@ -299,6 +297,20 @@ footer p{
 @media (min-width: @screen-lg-min) { 
 
 }
+
+
+
+
+/*.stuck {
+	position: fixed;
+  top: 0;
+  left: 0;
+/*  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px; 
+}*/
+
+
 
 
 
