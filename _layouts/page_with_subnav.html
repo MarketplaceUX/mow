@@ -1,0 +1,35 @@
+---
+layout: spec_base
+
+#You shouldn't need to do anything in this file.
+#Create content .md files and they'll be pulled in.
+
+---
+
+<!-- start main content ROW -->
+<div class="row" id="content">
+
+  <div class="col-xs-12 col-sm-3" id="sidebar-subnav">
+
+    <h6><SECTION CONTENTS></h6>
+
+    <ul class="nav nav-stacked">
+      {% include sidebar_subnav.html %}
+    </ul>
+
+  </div>
+
+  <div class="col-xs-12 col-sm-9" id="content-wrap">
+
+    <div class="row" id="content-main">
+      
+
+      <h1 class="subnav">{{ page.title }}</h1>
+      
+      {{ content }}
+
+    </div>
+  </div>
+
+</div>
+<!-- end main content ROW -->
