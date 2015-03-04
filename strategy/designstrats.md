@@ -1,7 +1,7 @@
 ---
 layout: page_with_subnav
 title: Design Strategies
-group: Section4
+group: section4
 ---
 
 Content - In Progress

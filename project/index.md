@@ -1,7 +1,7 @@
 ---
 layout: page_with_subnav
 title: Project Overview
-group: Section2
+group: section2
 ---
 
 Content - In Progress

@@ -1,7 +1,7 @@
 ---
 layout: page_with_subnav
 title: Design Overview
-group: Section6
+group: section6
 ---
 
 Content - In Progress

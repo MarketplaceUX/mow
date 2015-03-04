@@ -1,7 +1,7 @@
 ---
 layout: page_plain
 title: Bringing Websites to the Firefox Marketplace
-group: Section1
+group: section1
 ---
 
 This site includes user experience documentation for the <a target="_blank" href="https://wiki.mozilla.org/Marketplace/Mobile_Optimized_Websites" title="Go to this project's wiki page">Mobile-optimized Websites project</a>.

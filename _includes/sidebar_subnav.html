@@ -1,49 +1,32 @@
 <!--
-Add section lists to the _config file, and add here if needed.
-Subnavs generated automatically using the subnav_sectionX.html files.
-You shouldnt need to touch those.
-Though you may need to add one if you create a Section7 or beyond.
-There is no subnav for the home landing page.
-So there's no Section1.
+Add lists of pages to the _config file.
+Subnavs generated automatically using the code below.
+You shouldnt need to touch this file.
+
+For understanding:
+node[1][0] = page url
+node[1][1] = the page's section
+node[1][2] = the page's subnav title
 -->
 
-{% if page.group == "Section2" %}
-	{--% include subnav_section2.html %--} 
-	{% for node in site.section2_list %}
+{% for node in site.section_list %}
 
-		{% if page.url == node[1] %}
+	{% if page.group == node[1][1] %}
+
+		{% if page.url == node[1][0] %}
 
 			<li>
-				<a class="active-subnav" title="{{ node[0] }}" href="{{ site.baseurl }}{{ node[1] }}">{{ node[0] }}</a>
+				<a class="active-subnav" title="{{ node[1][2] }}" href="{{ site.baseurl }}{{ node[1][0] }}">{{ node[1][2] }}</a>
 			</li>
 		
 		{% else %}
 
 			<li>
-				<a title="{{ node[0] }}" href="{{ site.baseurl }}{{ node[1] }}">{{ node[0] }}</a>
+				<a title="{{ node[1][2] }}" href="{{ site.baseurl }}{{ node[1][0] }}">{{ node[1][2] }}</a>
 			</li>
 		
 		{% endif %}
 
-	{% endfor %}
+		{% endif %}
 
-
-
-
-{% endif %}
-
-{% if page.group == "Section3" %}
-	{% include subnav_section3.html %} 
-{% endif %}
-
-{% if page.group == "Section4" %}
-	{% include subnav_section4.html %} 
-{% endif %}
-
-{% if page.group == "Section5" %}
-	{% include subnav_section5.html %} 
-{% endif %}
-
-{% if page.group == "Section6" %}
-	{% include subnav_section6.html %} 
-{% endif %}
+{% endfor %}

@@ -28,36 +28,32 @@ Section5: '/concepts'
 Section6: '/design'
 
 
-# NOTES ON THE LISTS BELOW
-# Txt before colons is the txt that will appear in subnav.
-# The lists generate subnavs automatically for you.
-# They use the subnav_sectionX.html files to do that.
+# NOTES ON THE LIST BELOW
+# Add more pages as you create them
+# Re-number following pages in sequence if you add a page in the middle
+# You can group them with a line break as long cursor is to far left on the line break line
+# First = url
+# Second = the group name of the page (make sure you've added that to the page's front matter)
+# Third = the page's subnav title
 
-# List of Pages IN DISPLAY ORDER for subnav
-section1_list:       
-  Home: '/'
+# List of Pages 
+# Within each group, pages listed IN SUBNAV DISPLAY ORDER
+section_list:
+  0: ['/', 'section1', 'Home']
 
-# List of Pages IN DISPLAY ORDER for subnav
-section2_list:       
-  Overview: '/project/index.html'
-  Goals + Metrics: '/project/goals.html'
+  1: ['/project/index.html', 'section2', 'Overview']
+  2: ['/project/goals.html', 'section2', 'Goals + Metrics']
 
-# List of Pages IN DISPLAY ORDER for subnav
-section3_list:       
-  Overview: '/background/index.html'
-  Research: '/background/research.html'
+  3: ['/background/index.html', 'section3', 'Overview']
+  4: ['/background/research.html', 'section3', 'Research']
 
-# List of Pages IN DISPLAY ORDER for subnav
-section4_list:       
-  Overview: '/strategy/index.html'
-  Design Strategies: '/strategy/designstrats.html'
+  5: ['/strategy/index.html', 'section4', 'Overview']
+  6: ['/strategy/designstrats.html', 'section4', 'Design Strategies']
 
-# List of Pages IN DISPLAY ORDER for subnav
-section5_list:       
-  Overview: '/concepts/index.html'
+  7: ['/concepts/index.html', 'section5', 'Overview']
 
-# List of Pages IN DISPLAY ORDER for subnav
-section6_list:       
-  Overview: '/design/index.html'
+  8: ['/design/index.html', 'section6', 'Overview']
+
+
 
 
