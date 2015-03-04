@@ -34,18 +34,30 @@ Section6: '/design'
 # They use the subnav_sectionX.html files to do that.
 
 # List of Pages IN DISPLAY ORDER for subnav
+section1_list:       
+  Home: '/'
+
+# List of Pages IN DISPLAY ORDER for subnav
 section2_list:       
   Overview: '/project/index.html'
   Goals + Metrics: '/project/goals.html'
 
 # List of Pages IN DISPLAY ORDER for subnav
 section3_list:       
-  Information: '/background/index.html'
+  Overview: '/background/index.html'
   Research: '/background/research.html'
 
 # List of Pages IN DISPLAY ORDER for subnav
 section4_list:       
   Overview: '/strategy/index.html'
   Design Strategies: '/strategy/designstrats.html'
+
+# List of Pages IN DISPLAY ORDER for subnav
+section5_list:       
+  Overview: '/concepts/index.html'
+
+# List of Pages IN DISPLAY ORDER for subnav
+section6_list:       
+  Overview: '/design/index.html'
 
 

@@ -1,7 +1,7 @@
 ---
 layout: page_with_subnav
-title: Experience Strategy
-group: Section4
+title: Design Overview
+group: Section6
 ---
 
 Content - In Progress

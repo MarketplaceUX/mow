@@ -159,8 +159,18 @@ header {
 	border-top: 1px solid #888;
 }
 
+#content-main ul li {
+	font-size: 120%;
+	line-height: 140%;
+	margin-bottom: 6px;
+}
+
 #content h6 {
 	color: #2d457e;
+}
+
+.content-plain {
+	padding-left: 0px;
 }
 
 

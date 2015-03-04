@@ -1,7 +1,7 @@
 ---
 layout: page_with_subnav
-title: Experience Strategy
-group: Section4
+title: Goals + Metrics
+group: Section2
 ---
 
 Content - In Progress

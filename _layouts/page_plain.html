@@ -9,16 +9,6 @@ layout: spec_base
 <!-- start main content ROW -->
 <div class="row" id="content">
 
-  <!--div class="col-xs-12 col-sm-3" id="sidebar-subnav">
-
-    <h6><SECTION CONTENTS></h6>
-
-    <ul class="nav nav-stacked">
-      {% include sidebar_subnav.html %}
-    </ul>
-
-  </div-->
-
   <div class="col-xs-12 col-sm-12" id="content-wrap">
 
     <div class="row" id="content-main">
@@ -26,7 +16,11 @@ layout: spec_base
 
       <h1 class="subnav">{{ page.title }}</h1>
       
-      {{ content }}
+      <div class="col-xs-12 col-sm-9 content-plain">
+
+        {{ content }}
+
+      </div>
 
     </div>
   </div>
