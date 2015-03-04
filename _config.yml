@@ -39,8 +39,8 @@ section1_list:
 
 # List of Pages IN DISPLAY ORDER for subnav
 section2_list:       
-  Overview: 'http://marketplaceux.github.io/mow/project/index.html'
-  Goals + Metrics: 'http://marketplaceux.github.io/mow/project/goals.html'
+  Overview: '/project/index.html'
+  Goals + Metrics: '/project/goals.html'
 
 # List of Pages IN DISPLAY ORDER for subnav
 section3_list:       
