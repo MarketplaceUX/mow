@@ -6,12 +6,13 @@ email: marketplace-ux@mozilla.com
 description: "User experience design for integrating mobile-optimized websites into Marketplace"
 #below github project name WITHOUT the trailing /
 baseurl: "/mow" 
+#below url of GHPages account where project is hosted
+url: "http://marketplaceux.github.io"
 #below url to this project's Open Issues on github
 openissuesurl: "https://github.com/MarketplaceUX/mow/issues"
 #below url to this project's Master Branch on github
-masterbranchurl: "https://github.com/ezoehunt/mow"
-#below url of GHPages account where project is hosted
-url: "http://marketplaceux.github.io/mow/"
+masterbranchurl: "https://github.com/MarketplaceUX/mow/"
+
 
 
 # Build settings
