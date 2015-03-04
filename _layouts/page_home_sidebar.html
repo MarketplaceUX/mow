@@ -9,22 +9,30 @@ layout: spec_base
 <!-- start main content ROW -->
 <div class="row" id="content">
 
-  <div class="col-xs-12 col-sm-3" id="sidebar-subnav">
-
-    <h6>SECTION CONTENTS</h6>
-
-    <ul class="nav nav-stacked">
-      {% include sidebar_subnav.html %}
-    </ul>
+  <div class="col-xs-12 col-sm-12">
+    
+    <h1 class="home">{{ page.title }}</h1>
 
   </div>
+
+  <div class="col-xs-12 col-sm-3">
+
+    <div id="sidebar-home">
+
+      <h5 class="home-sidebar">How You Can Help</h5>
+
+      {% include sidebar_home.html %}
+
+    </div>
+
+  </div>
+
+
 
   <div class="col-xs-12 col-sm-9" id="content-wrap">
 
     <div class="row" id="content-main">
 
-      <h1 class="subnav">{{ page.title }}</h1>
-      
       {{ content }}
 
     </div>

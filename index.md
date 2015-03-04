@@ -1,5 +1,5 @@
 ---
-layout: page_plain
+layout: page_home_sidebar
 title: Bringing Websites to the Firefox Marketplace
 group: section1
 ---
@@ -10,19 +10,24 @@ This site includes user experience documentation for the <a target="_blank" href
 * Working on [Experience Strategy][2]
 * Filling in this site with background materials needed to provide foundation for design
 
+### More Content 
+* Content goes here and here and here and here and here and here.
+* Content goes here and here and here and here and here and here.
+* Content goes here and here and here and here and here and here.
+* Content goes here and here and here and here and here and here.
 
-### How You Can Help
-Visit the <a target="_blank" href="https://github.com/marketplaceux/mow/issues" title="Go to Open Issues">Open Issues</a> and participate in a conversation.
+### More Content 
+* Content goes here and here and here and here and here and here.
+* Content goes here and here and here and here and here and here.
+* Content goes here and here and here and here and here and here.
+* Content goes here and here and here and here and here and here.
 
-<b>Tips</b>
+### More Content 
+* Content goes here and here and here and here and here and here.
+* Content goes here and here and here and here and here and here.
+* Content goes here and here and here and here and here and here.
+* Content goes here and here and here and here and here and here.
 
-* Follow this repo to keep up with changes on this project!
-* Review the [Project][3] and [Background][4] materials before providing feedback on Experience Strategy, Concepts, and Design.
-* We're experimenting with a new way to use Open Isses for conversation. 
-<ul style="font-size: 80%">
-	<li>We've created some general Issues like "Sharing" and "Hypotheses." If you have a comment in one of these areas, please post it there.</li>
-		<li>If you have a comment in an area that's not listed, please post it in "General," and we'll decide how to manage it.</li>
-</ul> 
 
 
 
