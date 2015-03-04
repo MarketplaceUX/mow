@@ -1,17 +1,20 @@
 ---
-layout: landing_pages
-title: Bring Websites to the Firefox Marketplace
+layout: page_plain
+title: Bringing Websites to the Firefox Marketplace
 group: Home
 ---
 
-This site contains design work for the long-term vision for the Firefox Marketplace's Developer sections (aka the devhub.) This site is a living document where the team will record its progress as we re-imagine devhub.
+This site includes user experience documentation for the <a target="_blank" href="https://wiki.mozilla.org/Marketplace/Mobile_Optimized_Websites" title="Go to this project's wiki page">Mobile-optimized Websites project</a>.
 
-[Get started by reading the Project Overview &raquo;][1]
+### Progress - as of Mar 4, 2015 
+* Working on [Experience Strategy][2]
+* Filling in this site with background materials needed to provide foundation for design
 
-If you would like to contribute to this project, you may participate in the latest Discussion Thread in the Open Issues (see the the link in the top navigation).  Or feel free to clone and make pull requests against this site's [gh-pages branch][2].
+### How You Can Help
+* Visit the <a target="_blank" href="https://github.com/marketplaceux/mow/issues" title="Go to Open Issues">Open Issues</a> and participate in the conversation
+* Review the background materials before 
 
-Note: All the individual design artifacts generated to create this spec can be found in the [master branch][3] of this site.
 
-[1]: /home_1.html "Go to the Project Overview"
-[2]: https://github.com/tsmuse/FirefoxMarketplaceDevPagesDesign/tree/gh-pages "Go to the Mozilla Developer Network"
-[3]: https://github.com/tsmuse/FirefoxMarketplaceDevPagesDesign/tree/master "Go to the Around application on Github"
+
+[1]: https://wiki.mozilla.org/Marketplace/Mobile_Optimized_Websites "Go to this project's wiki page"
+[2]: {{ site.baseurl }}/strategy/ "Experience Strategy Overview"
