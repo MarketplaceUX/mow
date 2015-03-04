@@ -8,7 +8,28 @@ So there's no Section1.
 -->
 
 {% if page.group == "Section2" %}
-	{% include subnav_section2.html %} 
+	{--% include subnav_section2.html %--} 
+	{% for node in site.section2_list %}
+
+		{% if page.url == node[1] %}
+
+			<li>
+				<a class="active-subnav" title="{{ node[0] }}" href="{{ node[1] }}">{{ node[0] }}</a>
+			</li>
+		
+		{% else %}
+
+			<li>
+				<a title="{{ node[0] }}" href="{{ node[1] }}">{{ node[0] }}</a>
+			</li>
+		
+		{% endif %}
+
+	{% endfor %}
+
+
+
+	
 {% endif %}
 
 {% if page.group == "Section3" %}
