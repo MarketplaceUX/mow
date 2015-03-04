@@ -7,20 +7,22 @@ There is no subnav for the home landing page.
 So there's no Section1.
 -->
 
-{% for node in site.section2_list %}
+{% if page.group == "Section2" %}
+	{% include subnav_section2.html %} 
+{% endif %}
 
-	{% if page.url == node[1] %}
+{% if page.group == "Section3" %}
+	{% include subnav_section3.html %} 
+{% endif %}
 
-		<li>
-			<a class="active-subnav" title="{{ node[0] }}" href="{{site.baseurl}}{{ node[1] }}">{{ node[0] }}</a>
-		</li>
-	
-	{% else %}
+{% if page.group == "Section4" %}
+	{% include subnav_section4.html %} 
+{% endif %}
 
-		<li>
-			<a title="{{site.baseurl}}{{ node[0] }}" href="{{ node[1] }}">{{ node[0] }}</a>
-		</li>
-	
-	{% endif %}
+{% if page.group == "Section5" %}
+	{% include subnav_section5.html %} 
+{% endif %}
 
-{% endfor %}
+{% if page.group == "Section6" %}
+	{% include subnav_section6.html %} 
+{% endif %}

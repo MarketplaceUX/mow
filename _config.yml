@@ -4,10 +4,10 @@ title: Mobile-optimized Websites for the Firefox Marketplace
 author: Mozilla Firefox Marketplace UX team
 email: marketplace-ux@mozilla.com
 description: "User experience design for integrating mobile-optimized websites into Marketplace"
-#below github project name WITHOUT the trailing /
-baseurl: "/mow" 
 #below url of GHPages account where project is hosted
 url: "http://marketplaceux.github.io"
+#below github project name WITHOUT the trailing /
+baseurl: "/mow" 
 #below url to this project's Open Issues on github
 openissuesurl: "https://github.com/MarketplaceUX/mow/issues"
 #below url to this project's Master Branch on github
