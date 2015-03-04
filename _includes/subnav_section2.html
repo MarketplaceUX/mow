@@ -3,13 +3,13 @@
 	{% if page.url == node[1] %}
 
 		<li>
-			<a class="active-subnav" title="{{ node[0] }}" href="{{ node[1] }}">{{ node[0] }}</a>
+			<a class="active-subnav" title="mow/{{ node[0] }}" href="{{ node[1] }}">{{ node[0] }}</a>
 		</li>
 	
 	{% else %}
 
 		<li>
-			<a href="{{ node[1] }}" title="{{ node[0] }}">{{ node[0] }}</a>
+			<a href="{{ node[1] }}" title="mow/{{ node[0] }}">{{ node[0] }}</a>
 		</li>
 	
 	{% endif %}
