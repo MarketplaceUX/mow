@@ -62,7 +62,7 @@ group: section4
 * Profile page displays profile icon, display name, and email address (got rid of region - it's meaningless to consumers).
 * If user's Profile is Public, he can click a link to see his public Profile (see  <a href="#profilepublic">Profile Page - Public</a>).
 
-* User can add or edit his photo. Options for MP app and MP website on phone include: add from camera roll, take photo, and use Gravator. Options for MP website on desktop include: upload photo, take photo (webcam), and use Gravatar.
+* User can add or edit his photo. Options for MP app and MP website on phone include: add from camera roll, take photo, and use Gravator. Options for MP website on desktop include: upload photo, take photo (webcam), and use Gravatar.  Change should be reflected back to FxA.
 * User can edit his display name. Change should be reflected back to FxA.
 * User can set his Profile to Private (default) or to Public.
 * User can click a link to see an example Public Profile.
