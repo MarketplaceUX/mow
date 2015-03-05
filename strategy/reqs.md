@@ -39,11 +39,11 @@ group: section4
 * User can send the website URL via SMS and email.
 * User can share the website URL on social platforms, e.g., Facebook or Twitter.
 * User can click a link to go to the SUMO page that explains how to Submit a Mobile Website.
-* User can click a link to report an issue with the website, which opens the Report Issue layer.
-* User can click a link to claim ownership of the website, which opens the Claim Ownership layer.
-* User can view 3 "related" content apps and/or websites. Business rule: pick the top 2 most popular apps in the same category as the website and pick the top 1 most popular website in the same category as the website. Where website has mulitple categories, only pick from the first category. Note: this business rule will be modified in the future to be more sophisticated, e.g., "top 3 trending apps in the same category liked by other people who looked at this website."
+* User can click a link to report an issue with the website, which opens the Report Issue layer. Process and design in progress.
+* User can click a link to claim ownership of the website, which opens the Claim Ownership layer. Process and design in progress.
+* User can view 3 "related" content apps and/or websites. Business rule: pick the top 2 most popular apps in the same category as the website and pick the top 1 most popular website in the same category as the website. Where website has mulitple categories, only pick from the first category. Note: this business rule will be modified in the future to be more sophisticated. Here's an extreme example: "top 3 trending apps in the same category liked by other people who looked at this website."
   * <span>In each related content block, user can see how many "likes" the website has and how many "visits" to the website came from the Marketplace. These are not actionable.</span>
-  * <span>If a content block is a website, display its app rating in the block. Websites don't have ratings.</span>
+  * <span>If a content block is an app, display its app rating in the block. Websites don't have ratings.</span>
   * <span>In a content block, user can click the app/website title to go to its detail page.</span>
   * <span>In a content block, user can click "Get" button to initiate the install process for an app.</span>
   * <span>In a content block, user can click "Open" button to open a website (launches in browser).</span>
@@ -63,18 +63,17 @@ group: section4
 * If user's Profile is Public, he can click a link to see his public Profile (see  <a href="#profilepublic">Profile Page - Public</a>).
 * User can add or edit his photo. Options for MP app and MP website on phone include: add from camera roll, take photo, and use Gravator. Options for MP website on desktop include: upload photo, take photo (webcam), and use Gravatar.
 * User can edit his display name. Change should be reflected back to FxA.
-* User can set his Profile to Private (default) or to Public.1
+* User can set his Profile to Private (default) or to Public.
 * User can click a link to see an example Public Profile.
-* If Profile is set to Public, user can set Website Submissions to Private (default) or Public.
+* If Profile is set to Public, user can set Website Submissions to Private (default) or Public. If Profile is set to Private, this option is not available.
 * User can click a link to see an example Public Profile with Public Website Submissions.
 * User can manage preferences for seeing Recommendations on MP (on by default). User can click a link to SUMO page explaining Recommendations. Already exists.
-* If user has a developer account, user can manage devhub email preferences. See Bug 987362. User can click a link to learn about these email preferences - not sure these pages exist - may need to create them.
+* If user has a developer account, user can manage devhub email preferences. See [Bug 987362][10]. User can click a link to learn about these email preferences - not sure these pages exist - may need to create them.
 * See [Figure 1][4] and [Figure 2][5]
 
 
-## <a name="profilepublic"></a>Profile Page - Public - visble to anyone with the URL
-* User can view a Profile Owner's Public Profile, including that Profile Owner's Website Submissions (if the Profile Owner made Website Submissions Public).
-* User can see Profile Owner's profile photo and display name.
+## <a name="profilepublic"></a>Profile Page - Public - visible to anyone with the URL
+* User can view a Profile Owner's Public Profile.
 * If Profile Owner made Website Submissions Public, user can see a "list" of the Profile Owner's Website Submissions.
   * <span>That "list" will include the "likes" and "visits" for each website, as well as the website icon, it's title, and a CTA to open the website in browser.</span>
 * User can view how many people "applauded" the Profile Owner for his contribution to Marketplace.
@@ -121,5 +120,5 @@ group: section4
 [7]: {{ site.baseurl }}/strategy/figures/figure_my_apps.png "figure - my apps"
 [8]: {{ site.baseurl }}/strategy/figures/figure_my_sites.png "figure - my websites"
 [9]: {{ site.baseurl }}/strategy/figures/figure_my_subs.png "figure - my submissions"
-
+[10]: https://bugzilla.mozilla.org/show_bug.cgi?id=987362 "Go to Bug"
 
