@@ -16,11 +16,11 @@ An experience strategy is about creating a holistic vision for a consumer's expe
 
 The design team creates several different kinds of documents during this phase to think through design solutions, as well as to communicate with various stakeholders, e.g., engineering and marketing teams. 
 
-Once we've worked through the experience strategy, we'll move into Concept and Design where we'll work on the details of navigation, layout, hierarchy, interaction design, and visual design.
+Once we've worked through the experience strategy, we'll move into Concept and Design where we'll work out the details of navigation, layout, hierarchy, interaction design, and visual design.
 
 ### <a name="designprocess"></a>A Note about the Design Process
 
-The visual aids in this section are the tools designers use to think through a holistic experience strategy. And it's part of the process to throw out almost all of the visual aids when we've completed that thinking.
+The visual aids in this section are tools designers use to think through a holistic experience strategy. And it's part of the process to throw out almost all of the visual aids when we've completed that thinking.
 
 This is not wasted effort. It's how designers work. 
 
@@ -30,7 +30,7 @@ These visual aids are structural tools that help us organize our thinking in a l
 * The outline you make for a term paper
 * Your to-do list
 
-In all of these situations, the final outcome -- the launched feature, the A+ term paper, and the specific tasks you complete today -- very often differ from what the structrual tool indicated. The structural tool simply helped you organize the space in which you could tackle the problem and think it through.
+In all of these situations, the final outcome -- the launched feature, the A+ term paper, and the specific tasks you complete today -- very often differ from what the structrual tool indicated. The structural tool simply helped you organize a space in which you could tackle the problem and think it through.
 
 But don't worry. You'll get to see "design" soon as we move into Concept and Design.
 &nbsp;
