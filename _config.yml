@@ -48,11 +48,12 @@ section_list:
   4: ['/background/research.html', 'section3', 'Research']
 
   5: ['/strategy/index.html', 'section4', 'Overview']
-  6: ['/strategy/designstrats.html', 'section4', 'Design Strategies']
+  6: ['/strategy/reqs.html', 'section4', 'Requirements']
+  7: ['/strategy/designstrats.html', 'section4', 'Design Strategies']
 
-  7: ['/concepts/index.html', 'section5', 'Overview']
+  8: ['/concepts/index.html', 'section5', 'Overview']
 
-  8: ['/design/index.html', 'section6', 'Overview']
+  9: ['/design/index.html', 'section6', 'Overview']
 
 
 

@@ -15,13 +15,27 @@ body{
 }
 
 P {
-	line-height: 140%;
 	margin: 0 0 1rem 0;
 	padding: 0;
+	font-size: 1.5rem;
 }
 
-h2{
-	font-size: 2rem;
+h1{
+	font-size: 2rem !important;
+	font-weight: 600;
+}
+h2 {
+	font-size: 1.6rem !important;
+	font-style: italic;
+	font-weight: 600;
+}
+h3 {
+	font-size: 1.5rem !important;
+	font-weight: 600;
+	font-style: italic;
+}
+h6 {
+	font-weight: 600;
 }
 
 a:hover {
@@ -31,12 +45,10 @@ a:hover {
 
 /*----- STRUCTURE -----*/
 #wrapper {
-	/*min-height: 100%;*/
 	min-height: 100%;
 	position: relative;
 	width: 100% !important;
 	padding-left: 0px !important;
-	/*padding-right: 0px;*/
 }
 
 
@@ -73,7 +85,7 @@ header {
 .brand-logo-txt {
 	color: #fff;
 	line-height: 50px;
-	font-size: 14px;
+	font-size: 1.4rem;
 }
 
 .container>.navbar-collapse, 
@@ -84,7 +96,7 @@ header {
 .navbar-default .navbar-nav>li>a,
 .navbar-default .navbar-nav>li>a:visited {
 	padding: 0 10px 0 20px;
-	font-size: 110%;
+	font-size: 1.4rem;
 	line-height: 50px;
 	color: #fff;
 }
@@ -149,28 +161,37 @@ header {
 
 #content-main {
 	padding: 0px 12px 80px 12px;
+	font-size: 1.5rem !important;
 }
 
 #content-main P {
-	font-size: 140%;
+	font-size: 1.5rem;
+}
+
+#content-main blockquote {
+	font-size: 1.4rem !important;
 }
 
 #content-main h1.subnav {
 	padding-top: 12px;
 	border-top: 1px solid #888;
-	font-size: 30px;
+	font-size: 2rem !important;
 }
 
 #content h1.home {
 	margin-top: 0px !important;
 	margin-bottom: 10px;
-	font-size: 30px;
+	font-size: 2rem !important;
 }
 
 #content-main ul li {
-	font-size: 120%;
-	line-height: 140%;
 	margin-bottom: 6px;
+}
+,
+#content-main li span {
+	border: 1px solid red;
+	font-style: normal !important;
+	font-size: 4rem !important;
 }
 
 #content h6 {
@@ -186,11 +207,10 @@ header {
 	padding: 0 18px;
 	margin-bottom: 24px;
 }
-
-#sidebar-home P {
-	font-size: 110% !important;
+#sidebar-home P,
+#sidebar-home ul {
+	font-size: 1.3rem !important;
 }
-
 #sidebar-home h5.home-sidebar {
 	font-weight: 600;
 	margin-top: 0 !important;
@@ -198,17 +218,19 @@ header {
 	margin: -12px -18px 12px -18px;
 	padding: 12px;
 }
-
 #sidebar-home ul {
 	padding-left: 16px !important;
 	padding-bottom: 12px;
 }
-
 #sidebar-home li {
 	margin-bottom: 12px;
 }
 #sidebar-home li:last-child {
 	margin-bottom: 0px;
+}
+
+#sidebar-subnav {
+	font-size: 1.4rem;
 }
 
 
@@ -227,7 +249,7 @@ header {
 footer p{
 	border-left: 1px dotted #ccc;
 	padding-left: 5px;
-	font-size: .9em;
+	font-size: 1rem;
 }
 
 
@@ -253,6 +275,21 @@ footer p{
 
 /* Small+ devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+	h1{
+		font-size: 3rem !important;
+		font-weight: 400;
+	}
+	h2 {
+		font-size: 2.25rem !important;
+		font-style: italic;
+		font-weight: 400;
+	}
+	h3 {
+		font-size: 1.75rem !important;
+		font-weight: 400;
+		line-height: 1.42 !important;
+	}
+
 	#content {
 		padding-top: 130px;
 	}
@@ -324,17 +361,19 @@ footer p{
 		/* adjusting margins for better readability */
 		padding-right: 140px;
 		padding-left: 80px;
+		margin-top: -6px;
 	}
 	#content-main h1.subnav {
 		padding-top: 0;
-		margin-top: 0;
 		border: none;
-		font-size: 36px;
+		font-size: 3rem !important;
 	}
 	#content h1.home {
 		margin-top: 0px !important;
-		margin-bottom: 30px;
-		font-size: 36px;
+		font-size: 3rem !important;
+	}
+	#sidebar-home {
+		margin-top: 18px;
 	}
 
 }
