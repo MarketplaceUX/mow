@@ -19,7 +19,7 @@ The design team creates several different kinds of documents during this phase t
 Once we've worked through the experience strategy, we'll move into Concept and Design where we'll work out the details of navigation, layout, hierarchy, interaction design, and visual design.
 
 <br/>
-<a name="designprocess"></a><h3 style="padding-top: 40px; margin-top: -40px;">A Note about the Design Process</h3>
+<a name="designprocess"></a><h3 style="padding-top: 50px; margin-top: -50px;">A Note about the Design Process</h3>
 
 The visual aids in this section are tools we use to think through an experience strategy. They're not "designs." 
 
@@ -31,7 +31,7 @@ These visual aids are tools that help us organize our thinking in a logical way.
 * The outline you make for a term paper
 * Your to-do list
 
-In all of these situations, the final outcome -- the launched feature, the A+ term paper, and the specific tasks you complete today -- very often differ from what the tool indicated. The tool is just a structure that helps you organize a space in which you can tackle a problem and think it through.
+In these situations, the final outcome -- the launched feature, the A+ term paper, and the specific tasks you complete today -- very often differ from what the tool said you would do. The tool is just a structure that helps you organize a space in which you can tackle a problem and think it through.
 
 But don't worry. You'll get to see "design" soon as we move into Concept and Design!
 &nbsp;
