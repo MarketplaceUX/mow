@@ -6,27 +6,9 @@ subtitle: This site includes user experience documentation for the <a target="_b
 ---
 
 ## Progress - as of Mar 4, 2015 
+* Getting this site up and running
 * Working on [Experience Strategy][2]
-* Filling in this site with background materials needed to provide foundation for design
-
-## More Content 
-* Content goes here and here and here and here and here and here.
-* Content goes here and here and here and here and here and here.
-* Content goes here and here and here and here and here and here.
-* Content goes here and here and here and here and here and here.
-
-## More Content 
-* Content goes here and here and here and here and here and here.
-* Content goes here and here and here and here and here and here.
-* Content goes here and here and here and here and here and here.
-* Content goes here and here and here and here and here and here.
-
-## More Content 
-* Content goes here and here and here and here and here and here.
-* Content goes here and here and here and here and here and here.
-* Content goes here and here and here and here and here and here.
-* Content goes here and here and here and here and here and here.
-
+* Filling in the Project and Background sections.
 
 
 

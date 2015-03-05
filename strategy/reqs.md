@@ -4,6 +4,28 @@ title: User + Functional Requirements
 group: section4
 ---
 
+## <a name="homepage"></a>Home Page
+* User can view editorialized groupings of apps only, websites only, or a mix of apps and websites.
+* Editorial groupings may have different CTAs re: websites.
+  * <span>User can click to open a website directly from the editorial grouping.</span>
+  * <span>User can click to go to a website detail page.</span>  
+* The home page is likely to be very different from its current manifestation. E.g., change function to include a mix of external and internal "promo pieces" and/or Recommendations inside the feed" area.
+* The home page UI is likely to be very different from its current manifestation. E.g., less blocky, less listy, more immersive, more of a "front door" approach (rather than today's "here's everything" approach).
+* Get ready for the awesome!
+* See [Figure][1]
+
+
+## <a name="lists"></a>List Pages - Categories, Collections, New, Popular, Recommended, Search Results
+* User can view a mixed list of apps and websites on any list page.
+* Apps and Websites have different CTAs.
+  * <span>Apps = Get, which intiates download process.</span>
+  * <span>Some apps may be downloaded but not installed. These would have CTA of "Install," which would initiate the install process.</span>
+  * <span>Websites = Open, which opens site in browser</span>
+* List pages are likely to have layouts that are different from one another (vs today's situation where they're all the same).
+* List pages are likely to display different content on different pages. E.g., "likes" might be displayed on the Popular page but not on the Trending page. 
+* See [Figure][2]
+
+
 ## <a name="websitedetail"></a>Website Detail Page 
 * User can view details about a website, including Title, Description, the logo or icon, the website categories, and the website languages.
 * User can view which "platforms" the website works on, e.g., mobile, tablet, desktop, and future things like watch or tv.
@@ -25,12 +47,15 @@ group: section4
   * <span>In a content block, user can click the app/website title to go to its detail page.</span>
   * <span>In a content block, user can click "Get" button to initiate the install process for an app.</span>
   * <span>In a content block, user can click "Open" button to open a website (launches in browser).</span>
+* See [Figure][3]
+
 
 ## <a name="profilegeneral"></a>Profile Page - General
 * If a Profile page is Public, user can view it.
 * If a Profile page is Private, user cannot view it, unless he is the Profile Owner.
 * If user is not logged in and navigates by url to any page in the "Profile" area, display Sign In and Create Account CTAs. Also display 6 trending content blocks. Business rule: choose the top 3 trending apps and the top 3 most popular websites.
   * <span>User can interact with these content blocks as described for Website Detail Page.</span>
+
 
 ## <a name="profileprivate"></a>Profile Page - Private - visible only to Profile owner
 * User must be logged in to view his Profile page.
@@ -44,6 +69,8 @@ group: section4
 * User can click a link to see an example Public Profile with Public Website Submissions.
 * User can manage preferences for seeing Recommendations on MP (on by default). User can click a link to SUMO page explaining Recommendations. Already exists.
 * If user has a developer account, user can manage devhub email preferences. See Bug 987362. User can click a link to learn about these email preferences - not sure these pages exist - may need to create them.
+* See [Figure 1][4] and [Figure 2][5]
+
 
 ## <a name="profilepublic"></a>Profile Page - Public - visble to anyone with the URL
 * User can view a Profile Owner's Public Profile, including that Profile Owner's Website Submissions (if the Profile Owner made Website Submissions Public).
@@ -54,20 +81,26 @@ group: section4
 * User can give "applause" to the Profile Owner, which increments a user-facing counter on this page (possible other pages TBD).
 * Applause is a "like" for the Profile Owner, vs the "like" for the website content.
 * User can share the Profile page using email, SMS, and social platforms.
+* See [Figure][6]
+
 
 ## <a name="myapps"></a>My Apps - not Public
 * User can view a list of the apps he's installed across all devices.
 * User can filter the list to show only apps installed on a specific "platform" - Desktop, Android Mobile, Android Tablet, and Firefox OS. Default is the platform user is currently on.
 * List is a simplified version. Each block includes only the app icon, the short title, and a CTA to open the app (or CTA to install if downloaded but not installed).
 * User cannot delete apps from this page. Page explains that user must manage apps from the device where they are installed. Prob should link to a (new) SUMO article that overviews the many ways to get to "settings" depending on platform.
+* See [Figure][7]
 
 
 ## <a name="mysites"></a>My Websites - not Public
+
 * User can view a list of the websites he's linked to <b>from Marketplace</b>. This is not the same as the user's browser bookmarks. We're just providing a convenience for users who may not bookmark on their phone. The list is a record of any website the user clicked from inside Marketplace.
 * User can filter the list to show only websites visited from a specific "platform" - Desktop, Android Mobile, Android Tablet, and Firefox OS. Default is the platform user is currently on.
 * List is a simplified version. Each block includes only the website logo/icon, the short title, and a CTA to open the website in browser.
 * User can delete individual websites from the list. Removes them only from this list.
 * User can delete selected websites from the list. Removes them only from this list.
+* See [Figure][8]
+
 
 ## <a name="mysubs"></a>My Submissions - not Public
 * User can view a list of the websites he's submitted to Marketplace. This is a list of approved websites, not every site the user submitted.
@@ -75,29 +108,18 @@ group: section4
 * If we collect this info as part of submission > review process, content blocks would also show "X other submissions," meaning 12 other people also submitted this site. It's one indicator of the website's popularity.
 * For each website, user can share the stats using email, SMS, and social platforms.
 * User can click a link to go the SUMO page explaining how to submit a mobile website (if user wants to submit more of them).
-
-## <a name="homepage"></a>Home Page
-* User can view editorilized groupings of apps only, websites only, or a mix of apps and websites.
-* Editorial groupings may have different CTAs re: websites.
-  * <span>User can click to open a website directly from the editorial grouping.</span>
-  * <span>User can click to go to a website detail page.</span>  
-* The home page is likely to be very different from its current manifestation. E.g., change function to include a mix of external and internal "promo pieces" and/or Recommendations inside the feed" area.
-* The home page UI is likely to be very different from its current manifestation. E.g., less blocky, less listy, more immersive, more of a "front door" approach (rather than today's "here's everything" approach).
-* Get ready for the awesome!
-
-
-## <a name="lists"></a>List Pages - Categories, Collections, New, Popular, Recommended, Search Results
-* User can view a mixed list of apps and websites on any list page.
-* Apps and Websites have different CTAs.
-  * <span>Apps = Get, which intiates download process.</span>
-  * <span>Some apps may be downloaded but not installed. These would have CTA of "Install," which would initiate the install process.</span>
-  * <span>Websites = Open, which opens site in browser</span>
-* List pages are likely to have layouts that are different from one another (vs today's situation where they're all the same).
-* List pages are likely to display different content on different pages. E.g., "likes" might be displayed on the Popular page but not on the Trending page. 
+* See [Figure][9]
 
 
 
-
-
+[1]: {{ site.baseurl }}/strategy/figures/figure_home.png "figure - home page"
+[2]: {{ site.baseurl }}/strategy/figures/figure_list.png "figure - list page"
+[3]: {{ site.baseurl }}/strategy/figures/figure_web_detail.png "figure - website detail page"
+[4]: {{ site.baseurl }}/strategy/figures/figure_profile_private.png "figure - profile private 1"
+[5]: {{ site.baseurl }}/strategy/figures/figure_profile_private_2.png "figure - profile private 2"
+[6]: {{ site.baseurl }}/strategy/figures/figure_profile_public.png "figure - profile public"
+[7]: {{ site.baseurl }}/strategy/figures/figure_my_apps.png "figure - my apps"
+[8]: {{ site.baseurl }}/strategy/figures/figure_my_sites.png "figure - my websites"
+[9]: {{ site.baseurl }}/strategy/figures/figure_my_subs.png "figure - my submissions"
 
 
