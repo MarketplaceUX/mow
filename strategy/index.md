@@ -32,7 +32,7 @@ These visual aids are structural tools that help us organize our thinking in a l
 
 In all of these situations, the final outcome -- the launched feature, the A+ term paper, and the specific tasks you complete today -- very often differ from what the structrual tool indicated. The structural tool simply helped you organize a space in which you could tackle the problem and think it through.
 
-But don't worry. You'll get to see "design" soon as we move into Concept and Design.
+But don't worry. You'll get to see "design" soon as we move into Concept and Design!
 &nbsp;
 <br/>
 &nbsp;
