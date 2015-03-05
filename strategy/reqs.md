@@ -61,6 +61,7 @@ group: section4
 * User must be logged in to view his Profile page.
 * Profile page displays profile icon, display name, and email address (got rid of region - it's meaningless to consumers).
 * If user's Profile is Public, he can click a link to see his public Profile (see  <a href="#profilepublic">Profile Page - Public</a>).
+
 * User can add or edit his photo. Options for MP app and MP website on phone include: add from camera roll, take photo, and use Gravator. Options for MP website on desktop include: upload photo, take photo (webcam), and use Gravatar.
 * User can edit his display name. Change should be reflected back to FxA.
 * User can set his Profile to Private (default) or to Public.
@@ -72,7 +73,8 @@ group: section4
 * See [Figure 1][4] and [Figure 2][5]
 
 
-## <a name="profilepublic"></a>Profile Page - Public - visible to anyone with the URL
+<a name="profilepublic"></a><h2 style="padding-top: 120px; margin-top: -120px;">Profile Page - Public - visible to anyone with the URL</h2>
+
 * User can view a Profile Owner's Public Profile.
 * If Profile Owner made Website Submissions Public, user can see a "list" of the Profile Owner's Website Submissions.
   * <span>That "list" will include the "likes" and "visits" for each website, as well as the website icon, it's title, and a CTA to open the website in browser.</span>
