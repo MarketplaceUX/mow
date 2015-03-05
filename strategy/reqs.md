@@ -78,7 +78,7 @@ group: section4
   * <span>That "list" will include the "likes" and "visits" for each website, as well as the website icon, it's title, and a CTA to open the website in browser.</span>
 * User can view how many people "applauded" the Profile Owner for his contribution to Marketplace.
 * User can give "applause" to the Profile Owner, which increments a user-facing counter on this page (possible other pages TBD).
-* Applause is a "like" for the Profile Owner, vs the "like" for the website content.
+* Applause is a "like" for the Profile Owner (it's like "Thanks" on NextDoor).
 * User can share the Profile page using email, SMS, and social platforms.
 * See [Figure][6]
 
