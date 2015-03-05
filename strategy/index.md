@@ -16,9 +16,9 @@ An experience strategy is about creating a holistic vision for a consumer's expe
 
 The design team creates several different kinds of documents during this phase to think through design solutions, as well as to communicate with various stakeholders, e.g., engineering and marketing teams. 
 
-Once we've worked through the experience strategy, we'll move into Concept and Design where we'll work out the details of navigation, layout, hierarchy, interaction design, and visual design.
+Once we've worked through the experience strategy, we'll move into Concept and Design where we'll work out the details of navigation, layout, hierarchy, interaction design, and visual design.<a name="designprocess"></a>
 
-### <a name="designprocess"></a>A Note about the Design Process
+### A Note about the Design Process
 
 The visual aids in this section are tools designers use to think through a holistic experience strategy. They are not "design." 
 
