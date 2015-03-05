@@ -16,5 +16,5 @@ Mar 3, 2015:
 
  
 
-[1]: http://marketplaceux.github.io/mow/, "Go to the project site"
-[2]: https://github.com/MarketplaceUX/mow/issues, "Go to Open Issues"
+[1]: http://marketplaceux.github.io/mow/ "Go to the project site"
+[2]: https://github.com/MarketplaceUX/mow/issues "Go to Open Issues"
