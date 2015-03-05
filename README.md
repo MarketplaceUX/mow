@@ -1,6 +1,6 @@
 # Bringing Websites to the Firefox Marketplace
 
-This project site concerns the Mozilla Mobile-optimized Websites project][1].
+This project site concerns the [Mozilla Mobile-optimized Websites project][1].
 
 Visit the [project site][2] to see the design process + documentation.
 
