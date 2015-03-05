@@ -77,7 +77,7 @@ group: section4
 
 * User can view a Profile Owner's Public Profile.
 * If Profile Owner made Website Submissions Public, user can see a "list" of the Profile Owner's Website Submissions.
-  * <span>That "list" will include the "likes" and "visits" for each website, as well as the website icon, it's title, and a CTA to open the website in browser.</span>
+  * <span>That "list" will include the "likes" and "visits" for each website, as well as the website icon, its title, and a CTA to open the website in browser.</span>
 * User can view how many people "applauded" the Profile Owner for his contribution to Marketplace.
 * User can give "applause" to the Profile Owner, which increments a user-facing counter on this page (possible other pages TBD).
 * Applause is a "like" for the Profile Owner (it's like "Thanks" on NextDoor).
