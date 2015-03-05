@@ -214,7 +214,8 @@ header {
 #sidebar-home h5.home-sidebar {
 	font-weight: 600;
 	margin-top: 0 !important;
-	background-color: #e4e4e4;
+	background-color: #2d457e;
+	color: #fff;
 	margin: -12px -18px 12px -18px;
 	padding: 12px;
 }
