@@ -10,6 +10,6 @@ Mar 3, 2015:
 * Created site
 
 
-[1]: http://marketplaceux.github.io/mow/, "Go to Project Site"
+[1]: http://marketplaceux.github.io/mow/ "Go to Project Site"
 
 
