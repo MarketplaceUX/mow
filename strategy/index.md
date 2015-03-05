@@ -20,7 +20,7 @@ Once we've worked through the experience strategy, we'll move into Concept and D
 
 ### <a name="designprocess"></a>A Note about the Design Process
 
-The visual aids in this section are tools designers use to think through a holistic experience strategy. And it's part of the process to throw out almost all of the visual aids when we've completed that thinking.
+The visual aids in this section are tools designers use to think through a holistic experience strategy. They are not "design." And it's part of the process to throw out almost all of the visual aids when we've completed that thinking.
 
 This is not wasted effort. It's how designers work. 
 
