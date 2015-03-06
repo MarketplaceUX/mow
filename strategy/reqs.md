@@ -107,7 +107,7 @@ group: section4
 ## <a name="mysites"></a>My Websites - not Public
 * <b>Note</b>: Updated idea for this. Liking a website creates this list. It's a way to "save for later" a site you found on Marketplace.
 * User can view a list of the websites he's liked on Marketplace. This is a convenience for users of Marketplace who may (or may not) also use the browser to bookmark the site. In the future, it would be nice if "liking" a website on Marketplace added that site to the user's browser bookmarks.
-* User can filter the list to show only liked websites visited from a specific "platform" - Desktop, Android Mobile, Android Tablet, and Firefox OS. Default is the platform user is currently on.
+* User can filter the list to show only websites liked from a specific "platform" - Desktop, Android Mobile, Android Tablet, and Firefox OS. Default is the platform user is currently on.
 * List is a simplified version. Each block includes only the website logo/icon, the short title, and a CTA to open the website in browser.
 * User can unlike individual items on this list, or unlike a group of them at the same time. This would immediately remove them from this list.
 * <b>Note:</b> Figures show "delete" functionality - ignore this as we've changed the idea.
