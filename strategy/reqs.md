@@ -4,6 +4,11 @@ title: User + Functional Requirements
 group: section4
 ---
 
+## <a name="social"></a>Social Integration
+* We haven't designed this yet, but we know that we want users to be able to connect a social login to his account.
+* Social login will enable things like "43 of your Facebook friends liked this website," which will be used to improve "relevance" in terms of the content we display on a category page for example.
+* We plan to use social login as a tactic that supports content exploration, but we will not be building "social" features like "follow this user." We want our users to be focused on content, not on people.
+
 ## <a name="homepage"></a>Home Page
 * User can view editorialized groupings of apps only, websites only, or a mix of apps and websites.
 * Editorial groupings may have different CTAs re: websites.
@@ -21,12 +26,14 @@ group: section4
   * <span>Apps = Get, which intiates download process.</span>
   * <span>Some apps may be downloaded but not installed. These would have CTA of "Install," which would initiate the install process.</span>
   * <span>Websites = Open, which opens site in browser</span>
+* On list pages, a touch-based user can tap a website to get "quick info," which would be a description of the site and possibly other data like # of likes. A pointer-based user could hover to see the same info. From the quick info, user could proceed to the detail page, or open site in browser, or dismiss/close the "quick info."
 * List pages are likely to have layouts that are different from one another (vs today's situation where they're all the same).
 * List pages are likely to display different content on different pages. E.g., "likes" might be displayed on the Popular page but not on the Trending page. 
 * See [Figure][2]
 
 
 ## <a name="websitedetail"></a>Website Detail Page 
+* <b>Note</b>: Website Language may get killed. A lot of work/overhead for little consumer value. [Discussion here][11].
 * User can view details about a website, including Title, Description, the logo or icon, the website categories, and the website languages.
 * User can view which "platforms" the website works on, e.g., mobile, tablet, desktop, and future things like watch or tv.
 * User can "open" a website, which launches the site in the user's browser.
@@ -34,14 +41,18 @@ group: section4
 * User can click a website language to go to a search results page showing all apps that have that language (with region exclusions applied).
 * If Submitter has chosen "Public" for his Website Submissions, user can view details about the website Submitter on the website detail page - including Submitter's display name, profile pic, and Personal Description.
   * <span>In this case, user can click Submitter's display name to go the Submitter's Profile page.</span>
-* If Submitter has chosen "Private" for his Website Submissions, Submitter information will not be displayed on the website detail page. 
+* If Submitter has chosen "Private" for his Website Submissions, or if Submitter has a Private Profile, Submitter information will not be displayed on the website detail page. 
 * User can like a website, which increments a user-facing counter on the detail page (and other pages).
 * User can send the website URL via SMS and email.
 * User can share the website URL on social platforms, e.g., Facebook or Twitter.
 * User can click a link to go to the SUMO page that explains how to Submit a Mobile Website.
 * User can click a link to report an issue with the website, which opens the Report Issue layer. Process and design in progress.
-* User can click a link to claim ownership of the website, which opens the Claim Ownership layer. Process and design in progress.
-* User can view 3 "related" content apps and/or websites. Business rule: pick the top 2 most popular apps in the same category as the website and pick the top 1 most popular website in the same category as the website. Where website has mulitple categories, only pick from the first category. Note: this business rule will be modified in the future to be more sophisticated. Here's an extreme example: "top 3 trending apps in the same category liked by other people who looked at this website."
+* User can click a link to claim ownership of the website, which opens the Claim Ownership layer. Process and design in progress. This functionality is requested by BD team, who believe there will be some partners who do not want their websites listed in MP.
+* User can view 3 "related" content apps and/or websites. 
+  * <span>Business rule: Pull from a random group of 5 apps and 5 websites in the same category as the website. Display 3 of them on the page.</span>
+  * <span>Where website has mulitple categories, only pick from the first category.</span>
+  * <span>If it comes up in the random list, replace the website the user is currently looked at with a different one.</span>
+  * Note: this business rule will be modified in the future to be more sophisticated. Here's an extreme example: "top 3 trending apps in the same category liked by other people who looked at this website."</span>
   * <span>In each related content block, user can see how many "likes" the website has and how many "visits" to the website came from the Marketplace. These are not actionable.</span>
   * <span>If a content block is an app, display its app rating in the block. Websites don't have ratings.</span>
   * <span>In a content block, user can click the app/website title to go to its detail page.</span>
@@ -76,7 +87,7 @@ group: section4
 <a name="profilepublic"></a><h2 style="padding-top: 120px; margin-top: -120px;">Profile Page - Public - visible to anyone with the URL</h2>
 
 * User can view a Profile Owner's Public Profile.
-* If Profile Owner made Website Submissions Public, user can see a "list" of the Profile Owner's Website Submissions.
+* If Profile Owner made Website Submissions Public, user can see a "list" of the Profile Owner's Website Submissions. If Website Submissions are Private, user would just see the Profile Owner's display name and profile pic.
   * <span>That "list" will include the "likes" and "visits" for each website, as well as the website icon, its title, and a CTA to open the website in browser.</span>
 * User can view how many people "applauded" the Profile Owner for his contribution to Marketplace.
 * User can give "applause" to the Profile Owner, which increments a user-facing counter on this page (possible other pages TBD).
@@ -94,12 +105,12 @@ group: section4
 
 
 ## <a name="mysites"></a>My Websites - not Public
-
-* User can view a list of the websites he's linked to <b>from Marketplace</b>. This is not the same as the user's browser bookmarks. We're just providing a convenience for users who may not bookmark on their phone. The list is a record of any website the user clicked from inside Marketplace.
-* User can filter the list to show only websites visited from a specific "platform" - Desktop, Android Mobile, Android Tablet, and Firefox OS. Default is the platform user is currently on.
+* <b>Note</b>: Updated idea for this. Liking a website creates this list. It's a way to "save for later" a site you found on Marketplace.
+* User can view a list of the websites he's liked on Marketplace. This is a convenience for users of Marketplace who may (or may not) also use the browser to bookmark the site. In the future, it would be nice if "liking" a website on Marketplace added that site to the user's browser bookmarks.
+* User can filter the list to show only liked websites visited from a specific "platform" - Desktop, Android Mobile, Android Tablet, and Firefox OS. Default is the platform user is currently on.
 * List is a simplified version. Each block includes only the website logo/icon, the short title, and a CTA to open the website in browser.
-* User can delete individual websites from the list. Removes them only from this list.
-* User can delete selected websites from the list. Removes them only from this list.
+* User can unlike individual items on this list, or unlike a group of them at the same time. This would immediately remove them from this list.
+* <b>Note:</b> Figures show "delete" functionality - ignore this as we've changed the idea.
 * See [Figure][8]
 
 
@@ -123,4 +134,5 @@ group: section4
 [8]: {{ site.baseurl }}/strategy/figures/figure_my_sites.png "figure - my websites"
 [9]: {{ site.baseurl }}/strategy/figures/figure_my_subs.png "figure - my submissions"
 [10]: https://bugzilla.mozilla.org/show_bug.cgi?id=987362 "Go to Bug"
+[11]: https://github.com/MarketplaceUX/mow/issues/4 "Go to Open Issue"
 
