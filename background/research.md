@@ -25,6 +25,8 @@ group: section3
 
 <br/><a name="search"></a><h2 style="padding-top: 120px; margin-top: -120px;">Need for Different Models of Navigating the Web</h2>
 
+[Search Engines through the Ages][16]
+
 [Evolution of the Browser][14]
 <br/>"The Internet of Things will drive the browser to be an invisible entity that functions more as a platform that facilitates web apps more so than the gateway to the Internet as it has been in the past. In this context, the future of the browser looks more like an operating system. But it’s really a platform."
 
@@ -116,6 +118,7 @@ group: section3
 [13]: {{ site.baseurl }}/background/docs/Casual_Leisure_Searching.pdf "Open PDF"
 [14]: http://techcrunch.com/2015/03/07/the-evolution-of-the-browser "Go to article"
 [15]: http://pando.com/2015/03/05/the-trouble-with-social-and-the-opportunity-for-google/ "Go to article"
+[16]: http://sixrevisions.com/web_design/popular-search-engines-in-the-90s-then-and-now/ "Go to article"
 
 
 
