@@ -44,7 +44,7 @@ group: section3
 <br/><a name="mobile"></a><h2 style="padding-top: 130px;margin-top:-130px;">Mobile Web and Mobile Apps</h2>
 
 [Apps and the Mobile Web][1] - Dec 2014
-<br/>Some good stats about <b>perception</b> of time spent in apps vs mobile web. Note that the methodology used general Comscore data for apps vs mobile web use and then compared that against the perceptions of specific people. So it's not an apples to apples comparison. UX team believes the data is still interesting to look at. 
+<br/>Some good stats about <b>perception</b> of time spent in apps vs mobile web. Note that the methodology used general Comscore data for apps vs mobile web use and then compared that against the perceptions of specific people. So it's not an apples to apples comparison. UX team believes the data is still interesting to look at.
 
 "For mobile internet users, ease and convenience help dictate a preference for apps AND mobile web browsing. These can nudge people toward either mode, depending on the task at hand" (p26).
 <br/>This aligns with our hypothesis that people seek "content" first and choose the format (app or web) that provides most ease of use/convenience.
@@ -59,7 +59,7 @@ group: section3
 
 
 <br/>[The US Mobile App Report][3] - Aug 2014
-<br/>General stats about app usage in the <b>U.S.</b> 
+<br/>General stats about app usage in the <b>U.S.</b>
 
 
 <br/>[Links to various stats and reports][4] - Ongoing
@@ -70,19 +70,22 @@ group: section3
 
 [Local Search][7] - May 2014
 
- 
+[On China's Bleeding Edge: Web Design Trends 2015][17] - Feb 2015
+<br/>Really interesting article about China's mobile-only, light web app approach.
+
+
 
 
 
 <br/><a name="infoseek"></a><h2 style="padding-top: 120px; margin-top: -120px;">Information Seeking Behavior</h2>
 
-[Casual Search][11] - 2011 
+[Casual Search][11] - 2011
 <br/>Searching for pleasure rather than to find information.
 
 [Casual Search Diary Study][12] - 2012
 <br/>Diary study supporting the above
 
-[Casual Leisure Searching][13] - 2010 
+[Casual Leisure Searching][13] - 2010
 
 
 
@@ -90,7 +93,7 @@ group: section3
 
 <br/><a name="find"></a><h2 style="padding-top: 120px; margin-top: -120px;">Refinding/Revisiting Behavior</h2>
 
-[Save, Share, Revisit on Mozilla UX Blog][6] - Feb 2015 
+[Save, Share, Revisit on Mozilla UX Blog][6] - Feb 2015
 
 
 
@@ -119,7 +122,4 @@ group: section3
 [14]: http://techcrunch.com/2015/03/07/the-evolution-of-the-browser "Go to article"
 [15]: http://pando.com/2015/03/05/the-trouble-with-social-and-the-opportunity-for-google/ "Go to article"
 [16]: http://sixrevisions.com/web_design/popular-search-engines-in-the-90s-then-and-now/ "Go to article"
-
-
-
-
+[17]: http://www.smashingmagazine.com/2015/02/13/china-web-design-trends-2015/ "Go to article"
