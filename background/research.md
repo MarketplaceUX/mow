@@ -73,6 +73,8 @@ group: section3
 [On China's Bleeding Edge: Web Design Trends 2015][17] - Feb 2015
 <br/>Really interesting article about China's mobile-only, light web app approach.
 
+[Mobile Content Discovery][18] - 2014
+<br/>Some good UX recommendations for encouraging mobile discovery
 
 
 
@@ -123,3 +125,4 @@ group: section3
 [15]: http://pando.com/2015/03/05/the-trouble-with-social-and-the-opportunity-for-google/ "Go to article"
 [16]: http://sixrevisions.com/web_design/popular-search-engines-in-the-90s-then-and-now/ "Go to article"
 [17]: http://www.smashingmagazine.com/2015/02/13/china-web-design-trends-2015/ "Go to article"
+[18]:{{ site.baseurl }}/background/docs/MobileContentDiscovery_2014.pdf "Open PDF"
