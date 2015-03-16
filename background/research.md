@@ -89,6 +89,10 @@ group: section3
 
 [Casual Leisure Searching][13] - 2010
 
+Recent Mozilla research on use of Bookmarks
+<br/><b>Mozilla employees</b> can [request access to this doc][19] from Irina Sandu.
+
+
 
 
 
@@ -126,3 +130,5 @@ group: section3
 [16]: http://sixrevisions.com/web_design/popular-search-engines-in-the-90s-then-and-now/ "Go to article"
 [17]: http://www.smashingmagazine.com/2015/02/13/china-web-design-trends-2015/ "Go to article"
 [18]:{{ site.baseurl }}/background/docs/MobileContentDiscovery_2014.pdf "Open PDF"
+[19]: https://docs.google.com/a/mozilla.com/presentation/d/16X96Qm8fgTUE0tUO96FgRrl7azA-Spbm03SggFNBxDo "Request access"
+
