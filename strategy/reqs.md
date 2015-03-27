@@ -5,12 +5,12 @@ group: section4
 ---
 
 ## <a name="social"></a>Social Integration
-* We haven't designed this yet, but we know that we want users to be able to connect a social login to his account.
+* We may want users to be able to connect a social login to his account.
 * Social login will enable things like "43 of your Facebook friends liked this website," which will be used to improve "relevance" in terms of the content we display on a category page for example.
-* We plan to use social login as a tactic that supports content exploration, but we will not be building "social" features like "follow this user." We want our users to be focused on content, not on people.
+* We would use social login as a tactic that supports content exploration, but we would not build "social" features like "follow this user." We'd want our users to be focused on content, not on people.
 
 ## <a name="homepage"></a>Home Page
-* User can view editorialized groupings of apps only, websites only, or a mix of apps and websites.
+* User can view editorialized groupings of apps only, websites only, or a mix of apps and websites. And other content types as they come on board.
 * Editorial groupings may have different CTAs re: websites.
   * <span>User can click to open a website directly from the editorial grouping.</span>
   * <span>User can click to go to a website detail page.</span>  
@@ -33,8 +33,8 @@ group: section4
 
 
 ## <a name="websitedetail"></a>Website Detail Page 
-* <b>Note</b>: Website Language may get killed. A lot of work/overhead for little consumer value. [Discussion here][11].
-* User can view details about a website, including Title, Description, the logo or icon, the website categories, and the website languages.
+* <b>Note</b>: We'll collect website language as part of submission process. But won't display it until we work out some challenges. [Discussion here][11].
+* User can view details about a website, including Title, Description, the logo or icon, and the website categories.
 * User can view which "platforms" the website works on, e.g., mobile, tablet, desktop, and future things like watch or tv.
 * User can "open" a website, which launches the site in the user's browser.
 * User can click a website category to go to the relevant category page.
@@ -104,9 +104,9 @@ group: section4
 * See [Figure][7]
 
 
-## <a name="mysites"></a>My Websites - not Public
-* <b>Note</b>: Updated idea for this. Liking a website creates this list. It's a way to "save for later" a site you found on Marketplace.
-* User can view a list of the websites he's liked on Marketplace. This is a convenience for users of Marketplace who may (or may not) also use the browser to bookmark the site. In the future, it would be nice if "liking" a website on Marketplace added that site to the user's browser bookmarks.
+## <a name="mysites"></a>My Favorites - not Public
+* <b>Note</b>: Updated idea for this. Liking a website creates this list. Changed name to "Favorites" to align with in-progress V3 thinking for the browser experience on phone.
+* User can view a list of the websites he's liked on Marketplace. This is a convenience for users of Marketplace who may (or may not) also use the browser to bookmark the site. In the future, it would be nice if "liking" a website on Marketplace added that site to the user's browser bookmarks, e.g., a browser bookmark folder called "Marketplace Favorites." The approach for future should align with future thinking about the phone's browser experience.
 * User can filter the list to show only websites liked from a specific "platform" - Desktop, Android Mobile, Android Tablet, and Firefox OS. Default is the platform user is currently on.
 * List is a simplified version. Each block includes only the website logo/icon, the short title, and a CTA to open the website in browser.
 * User can unlike individual items on this list, or unlike a group of them at the same time. This would immediately remove them from this list.

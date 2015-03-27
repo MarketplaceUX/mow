@@ -33,7 +33,7 @@ On the other hand, opening a website involves significantly less friction - just
 
 <br/><b>Promotional spaces are baked into the experience.</b> There are no places on Marketplace that do not have opportunities for "promoting" content. We should always be offering people more content. Some of those opportunities will be reserved for partner promotions. Others will be reserved for editorial content. And many of them will be reserved for algorithmic "promotions" of content we think will interest people. This principle will become more clear as we flesh out the designs.
 
-<br/><b>People will always know where they are in Marketplace and what they can do.</b> All parts of Marketplace will be clearly labeled with consistent use page titles, breadcrumbs, and sub-navigation (where appropriate).
+<br/><b>People will always know where they are in Marketplace and what they can do.</b> All parts of Marketplace will be clearly labeled with consistent use of page titles, breadcrumbs, and sub-navigation (where appropriate).
 
 <br/><b>"List" pages will be different from one another.</b> To create a more lively and dynamic experience, "list" pages will be differentiated from each other using both different visual design and different interaction models.
 
@@ -47,7 +47,7 @@ On the other hand, opening a website involves significantly less friction - just
 
 <br/><b>Marketplace is not about "educating" people.</b> While we may include content that helps people understand a few things, our main goal is not education. We're not going to ask people to eat their vegetables. They can eat candy for dinner if that's what they want.
 
-<br/><b>Marketplace will include a consistent and highly visible "help" system.</b> Details TBD during design process. Our goal is to provide people with an understanding of what they can do in Marketplace. We want to do that in context (vs sending them off to another page). But we will also include an FAQs page and an About page for people who prefer those methods of "help."
+<br/><b>Marketplace will include a consistent and highly visible "help" system.</b> Details TBD during design process. Our goal is to provide people with an understanding of what they can do in Marketplace. We want to do that in context (vs sending them off to another page). We may also include an FAQs page and an About page for people who prefer those methods of "help."
 
 <br/><b>Word of mouth is a powerful incentive.</b> Provide tools to assist people in getting the word out.
 
@@ -55,9 +55,9 @@ On the other hand, opening a website involves significantly less friction - just
 
 <br/><b>Marketplace is link-y.</b> Based on our [Product Design Strategy][1], we want Marketplace to jumpstart an exploration of the web. This means we want people to link to content outside of Marketplace. So it's a success if people leave Marketplace to follow a link to another site.
 
-<!--br/><b>Rely less on manual "curation" of content. Rely more on programmatic rules-based groupings of content.</b> 
+<br/><b>Ease burden of creating curated content for Marketplace Editor.</b> We want to create a system that allows more "set and forget" containers of curated content. This would allow Editor to focus more attention on specialized curated content.</b> 
 
-<br/><b>Marketplace will become more focused on the individual person's interests.</b> The current Marketplace makes a number of assumptions about what people want to see. Much of this is done (currently) via a manual curation process. -->
+<!--br/><b>Marketplace will become more focused on the individual person's interests.</b> The current Marketplace makes a number of assumptions about what people want to see. Much of this is done (currently) via a manual curation process. -->
 
 
 
