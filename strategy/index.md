@@ -4,7 +4,7 @@ title: Experience Strategy
 group: section4
 ---
 
-### Currently in progress -- Our experience strategy illustrates our vision of the impact of mobile-optimized websites on Marketplace consumers. 
+### Our experience strategy illustrates our vision of the impact of mobile-optimized websites on Marketplace consumers. 
 
 An experience strategy is about creating a holistic vision for a consumer's experience of your product, service, and/or brand. Our experience strategy will be based on:
 
