@@ -58,6 +58,9 @@ group: section3
 </ul>
 
 
+<br/>[Messaging Apps: The New Face of Retail Banking][20] - Mar 2015
+
+
 <br/>[The US Mobile App Report][3] - Aug 2014
 <br/>General stats about app usage in the <b>U.S.</b>
 
@@ -131,4 +134,7 @@ Recent Mozilla research on use of Bookmarks
 [17]: http://www.smashingmagazine.com/2015/02/13/china-web-design-trends-2015/ "Go to article"
 [18]:{{ site.baseurl }}/background/docs/MobileContentDiscovery_2014.pdf "Open PDF"
 [19]: https://docs.google.com/a/mozilla.com/presentation/d/16X96Qm8fgTUE0tUO96FgRrl7azA-Spbm03SggFNBxDo "Request access"
+[20]: http://www.flurry.com/blog/flurry-insights/messaging-apps-new-face-retail-banking#.VRwGvEa0wtx "Go to article"
+
+
 
