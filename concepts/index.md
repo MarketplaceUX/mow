@@ -11,9 +11,9 @@ group: section5
 </ul-->
 
 
-## Product Vision
+## Customer Experience Vision
 
-This section describes the product vision for the new Marketplace. Before diving in, you might want to review the documents below:
+This section describes the customer experience vision for the new Marketplace. Before diving in, you might want to review the documents below:
 
 * [Product Design Strategy][1]
 * [Customer Experience Framework][2]
