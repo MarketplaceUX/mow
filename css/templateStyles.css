@@ -185,7 +185,7 @@ header {
 }
 
 #content-main ul li {
-	margin-bottom: 6px;
+	/*margin-bottom: 6px;*/
 }
 ,
 #content-main li span {
@@ -270,9 +270,56 @@ footer p{
 }
 
 
+/*----- TABLES -----*/
+.markdown-body table {
+	display:block;
+	width:100%;
+	overflow:auto;
+	word-break:keep-all;
+}
+
+.markdown-body table th,.markdown-body table td {
+	border:1px solid #ddd;
+	padding:6px 13px;
+}
+
+.markdown-body table tr {
+	background-color:#fff;
+	border-top:1px solid #ccc;
+}
+
+.markdown-body table tbody tr:nth-child(even) {
+	background-color: #ebebeb;
+}
+
+.markdown-body li {
+	margin-bottom: 6px;
+}
+
+.markdown-body img {
+	padding-bottom: 12px;
+}
+
+.markdown-body hr {
+	border-width: 3px 0px 0px;
+	border-color: #cdcdcd;
+}
+
+.markdown-body p.img-left {
+	float: left;
+	width: 45% !important;
+}
+.markdown-body p.img-right {
+	float: right;
+	width: 45% !important;
+}
+.markdown-body p.img-left img,
+.markdown-body p.img-right img {
+	width: 75% !important;
+}
+
 
 /*----- MEDIA QUERIES -----*/
-
 
 /* Small+ devices (tablets, 768px and up) */
 @media (min-width: 768px) {

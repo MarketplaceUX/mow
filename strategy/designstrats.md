@@ -19,7 +19,7 @@ group: section4
 
 <b>Specific details are less important for websites than for apps.</b> To open an app, you have to download, install, and then open the app. Because opening an app involves a lot of friction, people like to have a lot of information (e.g., description, reviews, ratings, screenshots, etc.) before they invest time and energy in doing that. 
 
-On the other hand, opening a website involves significantly less friction - just click and it opens in your browser. For this reason, we believe people will not need as much information before they go ahead and open a website. As a result, we suspect that there will be far fewer visits to the website detail page than we see for the app detail page. We plan to measure this and respond with updated designs.
+On the other hand, opening a website involves significantly less friction - just click and it opens in your browser. For this reason, we believe people will not need as much information before they go ahead and open a website. As a result, we suspect that there will be fewer visits to the website detail page than we see for the app detail page. We plan to measure this and respond with updated designs.
 
 <br/><b>Community members want validation and recognition for their contributions.</b> We know that community members want these when they contribute in other Mozilla areas. Since this is a new program, we want to design a few baseline features that provide validation/recognition. That is, we want to launch with fewer of these features and build more of them as we go. So we will talk with community members about other types of validation/recognition that might be useful/interesting to them.
 
@@ -45,7 +45,9 @@ On the other hand, opening a website involves significantly less friction - just
 
 <br/><b>Marketplace will use friendly language.</b> We will talk to people in real-people speak and avoid any use of "tech" language.
 
-<br/><b>Marketplace is not about "educating" people.</b> While we may include content that helps people understand a few things, our main goal is not education. We're not going to ask people to eat their vegetables. They can eat candy for dinner if that's what they want.
+<br/><b>Marketplace is not about "educating" people.</b> While we may include content that helps people understand a few things, our main goal is not education. 
+
+<br/><b>Marketplace will make few assumptions about what people want to see or do.</b> The new Marketplace is about encouraging an exploration of content. Because we cannot know for certain what people want to look at, we do not want to make assumptions for them. We *will* provide "sensible defaults" (for example, defaulting to show content for your device). But when we do this, we will always provide users with a method for "escaping" those defaults.
 
 <br/><b>Marketplace will include a consistent and highly visible "help" system.</b> Details TBD during design process. Our goal is to provide people with an understanding of what they can do in Marketplace. We want to do that in context (vs sending them off to another page). We may also include an FAQs page and an About page for people who prefer those methods of "help."
 

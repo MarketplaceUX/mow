@@ -5,50 +5,27 @@ group: section5
 ---
 
 
-<ul>
+<!--ul>
 	<li><a href="#design">Design Meetings</a></li>
 	<li><a href="#maps">New site maps</a></li>
-</ul>
+</ul-->
+
+
+## Product Vision
+
+This section describes the product vision for the new Marketplace. Before diving in, you might want to review the documents below:
+
+* [Product Design Strategy][1]
+* [Customer Experience Framework][2]
 
 
 
 
-<br/><a name="design"></a><h2 style="padding-top: 120px; margin-top: -120px;">Design Meetings</h2>
-
-**Apr 2, 2015 - Review Preload wireframes and customer experience framework.** Some questions came up about Preload. You can find the [questions and answers here.][7]
-
-**Mar 26, 2015 - Review home page concepts.** Good discussion about home page concepts. Several great questions came up. We're tracking those in [Issue 5][1]. You can add more questions, comments, feedback in that issue.
-
-**Mar 19, 2015 - Design Your Own Home Page.** Everybody designed the home page they'd like for Marketplace. [You can find the notes and images here][2].
-
-**Mar 12, 2015 - Design Improv!** We had a great improv brainstrom session with the team. [You can find the notes here][3].
+======
+[1]: https://docs.google.com/a/mozilla.com/presentation/d/1CHBJ5U1LMSmxrQinNVYGO52obhwanpteChyOtTFmcHc/edit#slide=id.g75557eac1_7_120 "Go to Product Design Strategy"
+[2]: https://www.dropbox.com/s/tvisa0cih2zlprf/MOW_Vision_CX_040215_small.pdf?dl=0 "Go to CX Framework"
 
 
-
-
-
-<br/><a name="maps"></a><h2 style="padding-top: 120px; margin-top: -120px;">New Site Maps</h2> 
-
-Note: subject to change.
-
-[Base site map][4]
-
-[Category site map][5]
-
-[Profile site map][6]
-
-
-
-
-[1]: https://github.com/MarketplaceUX/mow/issues/5 "Go to issue"
-[2]: https://docs.google.com/a/mozilla.com/document/d/1bbxXybu0QuQYbFsubgpKHw-wcEsIZdb8a15WfibWkDI "Go to notes"
-[3]: https://docs.google.com/a/mozilla.com/document/d/1dn7Tl_EhYg-n5YRsgRxqBBpwQ0fruMgOrnLWQdUcX6c "Go to notes"
-
-[4]: http://marketplaceux.github.io/mow/concepts/images/MOW_Vision_sitemap_base.pdf "Go to site map"
-[5]: http://marketplaceux.github.io/mow/concepts/images/MOW_Vision_sitemap_cats.pdf "Go to site map"
-[6]: http://marketplaceux.github.io/mow/concepts/images/MOW_Vision_sitemap_profile.pdf "Go to site map"
-
-[7]: https://etherpad.mozilla.org/mow-vision "Go to Q&A"
 
 
 &nbsp;
