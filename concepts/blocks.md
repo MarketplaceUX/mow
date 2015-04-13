@@ -26,10 +26,10 @@ In addition, region(s) are attached to all content on the MP site. So region exc
 <br/>Multiple Items blocks have 3 flavors: 1) <a href="#multisys">System</a>, 2) <a href="#multicur">Curated</a>, and 3) <a href="#multistory">Story</a>.
 
 <br/>**Do More blocks**
-<br/>Do More blocks are a catch-all term for non-catalog content blocks and have several flavors.
+<br/><a href="#domore">Do More</a> blocks are a catch-all term for content blocks that don't fit into the above.
 
 <br/>**A note about the examples below**
-<br/>The examples below are not an exhaustive list of content blocks. They're included here to give you a sense of the scope and breadth of the different content block types.
+<br/><font color="red">The examples below are not an exhaustive list of content blocks. They're included here to provide a sense of the scope and breadth of the different content block types.</font>
 
 ---
 <a name="singlesys"></a><h2 style="padding-top: 120px; margin-top: -120px;">Single Item System Block</h2>
@@ -167,7 +167,7 @@ Editor can feature the same Items for all regions, or specific Items for specifi
 ----------
 <a name="domore"></a><h2 style="padding-top: 120px; margin-top: -120px;">Do More Block</h2>
 
-Do More blocks contain non-catalog content that helps people do more with their Marketplace experience or with their broader Mozilla experience.
+Do More blocks contain content and interactions that help people do more with their Marketplace experience or with their broader Mozilla experience.
 
 **Issues**
 

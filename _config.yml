@@ -56,10 +56,11 @@ section_list:
   8: ['/concepts/index.html', 'section5', 'Overview']
   9: ['/concepts/content.html', 'section5', 'Content Strategy']
   10: ['/concepts/blocks.html', 'section5', 'Content Blocks']
-  11: ['/concepts/examples.html', 'section5', 'Content Examples']  
-  12: ['/concepts/org.html', 'section5', 'Site Organization']
+  11: ['/concepts/scenarios.html', 'section5', 'People Scenarios']
+  12: ['/concepts/anatomy.html', 'section5', 'Anatomy of the Home Page']
+  13: ['/concepts/org.html', 'section5', 'Site Organization']
 
-  13: ['/design/index.html', 'section6', 'Overview']
+  14: ['/design/index.html', 'section6', 'Overview']
 
 
 
