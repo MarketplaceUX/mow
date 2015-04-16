@@ -2,7 +2,7 @@
 layout: page_home_sidebar
 title: Bringing Websites to the Firefox Marketplace
 group: section1
-subtitle: This site includes user experience documentation for the <a href="">Mobile-optimized Websites project</a></a>.
+subtitle: This site includes user experience documentation for the <a href=>Mobile-optimized Websites project</a>.
 
 ---
 
