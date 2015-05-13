@@ -12,7 +12,6 @@ Can be [found here][1].
 <br/>
 ## Redesign of App Blocks
 With the redesign of our app/site blocks on mobile we're making things clearer for the user: Better approaches to type, bigger touch targets, smarter layouts. Our overview of these changes can be [found here][2].
-Explain what you're trying to achieve with this. Then provide link.
 
 
 
