@@ -21,5 +21,5 @@ Explain what you're trying to achieve with this. Then provide link.
 
 
 ======
-[1]: {{ site.baseurl }}/design/phase1/filters/v2/start_here.html "Go to filter prototypes"
+[1]: {{ site.baseurl }}/design/phase1/filters/start_here.html "Go to filter prototypes"
 [2]: urlhere "Go to redesign of App Blocks"
