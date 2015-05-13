@@ -6,6 +6,13 @@ subtitle: This site includes user experience documentation for the <a target="_b
 
 ---
 
+## Progress - as of May 13, 2015 
+* Working out [display rules for Preload][8].
+* Working out [detailed designs for Phase 1][9]
+* Continuing work on Customer Experience Framework.
+
+
+
 ## Progress - as of Apr 10, 2015 
 * Conducted brainstorm session with MP team on Apr 9, 2015. You can see [ideas and discussion here][7].
 * Continuing work on Customer Experience Framework.
@@ -44,6 +51,8 @@ subtitle: This site includes user experience documentation for the <a target="_b
 [5]: https://www.dropbox.com/s/e2tdhkjilnp9f0h/MOW_Preload_v2.3.pdf?dl=0 "Go to Preload wireframes"
 [6]: https://www.dropbox.com/s/tvisa0cih2zlprf/MOW_Vision_CX_040215_small.pdf?dl=0 "Go to framework"
 [7]: https://github.com/MarketplaceUX/mow/issues/6 "Go to discussion"
+[8]: https://docs.google.com/document/d/1mZTXgMQdyIRHRUgG2DcZqdw7N-OffyDDMZsOPEtJ0ME/edit# "Go to display rules"
+[9]: {{ site.baseurl }}/design/phase1 "Go to Phase 1 designs"
 
 
 

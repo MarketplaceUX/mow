@@ -4,4 +4,18 @@ title: Design Overview
 group: section6
 ---
 
-Not yet started
+
+<br/>
+## Preload Designs
+These are completed and can be [found here][1].
+
+<br/>
+## Phase 1 Designs
+Can be [found here][2].
+
+
+
+
+======
+[1]: https://www.dropbox.com/s/e2tdhkjilnp9f0h/MOW_Preload_v2.3.pdf?dl=0 "Go to Preload designs"
+[2]: {{ site.baseurl }}/design/phase1 "Go to Phase 1 designs"
