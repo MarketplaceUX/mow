@@ -846,7 +846,7 @@
   font-family:'OpenSans', 'Open Sans';
   font-weight:400;
   font-style:normal;
-  font-size:20px;
+  font-size:14px;
   color:#66707F;
 }
 #u57_img {
@@ -863,7 +863,7 @@
 #u58 {
   position:absolute;
   left:2px;
-  top:6px;
+  top:10px;
   width:46px;
   word-wrap:break-word;
 }
