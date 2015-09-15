@@ -2,14 +2,15 @@
 
 This project site concerns the [Mozilla Mobile-optimized Websites project][1].
 
-Visit the [project site][2] to see the design process + documentation.
+No further design work is planned. 
 
-Visit the [gh-pages][3] branch to learn how to participate and contribute to this project.
-
-Note: This (master) branch will contain the design asset files, e.g., Photoshop files, used to create the project site.
+Visit [here][2] to see the design process + documentation for Phase 1.
 
 
 ## Changelog
+Sep 15, 2015: 
+* Archived site
+
 Mar 3, 2015: 
 * Created site
 
