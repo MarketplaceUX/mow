@@ -44,24 +44,14 @@ section_list:
   0: ['/', 'section1', 'Home']
 
   1: ['/project/index.html', 'section2', 'Overview']
-  2: ['/project/goals.html', 'section2', 'Goals + Metrics']
 
   3: ['/background/index.html', 'section3', 'Overview']
-  4: ['/background/research.html', 'section3', 'Research']
 
   5: ['/strategy/index.html', 'section4', 'Overview']
   6: ['/strategy/reqs.html', 'section4', 'Requirements']
-  7: ['/strategy/designstrats.html', 'section4', 'Design Strategies']
-
-  8: ['/concepts/index.html', 'section5', 'Overview']
-  9: ['/concepts/content.html', 'section5', 'Content Strategy']
-  10: ['/concepts/blocks.html', 'section5', 'Content Blocks']
-  11: ['/concepts/scenarios.html', 'section5', 'People Scenarios']
-  12: ['/concepts/anatomy.html', 'section5', 'Anatomy of the Home Page']
-  13: ['/concepts/org.html', 'section5', 'Site Organization']
 
   14: ['/design/index.html', 'section6', 'Overview']
-  15: ['/design/phase1/index.html', 'section6', 'Phase 1']  
+  15: ['/design/phase1/index.html', 'section6', 'Phase 1']
 
 
 
